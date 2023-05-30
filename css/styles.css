@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}/*# sourceMappingURL=styles_20230530112926.css.map */
