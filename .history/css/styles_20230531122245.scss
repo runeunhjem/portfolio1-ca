@@ -45,7 +45,6 @@
 body {
   font-family: var(--font-family-inter);
   background-color: var(--color-bg-body);
-  padding: 1em;
 }
 
 .flex {
@@ -104,7 +103,7 @@ body {
 }
 
 .nav-button {
-  min-width: 160px;
+  width: 160px;
   // height: 49px;
   padding: 0.7rem 1.5rem;
   background-color: var(--color-white);

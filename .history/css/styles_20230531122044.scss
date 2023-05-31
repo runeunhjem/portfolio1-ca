@@ -45,7 +45,6 @@
 body {
   font-family: var(--font-family-inter);
   background-color: var(--color-bg-body);
-  padding: 1em;
 }
 
 .flex {
@@ -99,18 +98,18 @@ body {
 }
 
 .navbar {
-  gap: 2em;
+  gap: 1em;
   align-items: flex-end;
 }
 
 .nav-button {
-  min-width: 160px;
+  // width: 128px;
   // height: 49px;
-  padding: 0.7rem 1.5rem;
+  padding: 15px;
   background-color: var(--color-white);
   box-shadow: var(--box-shadow-buttons);
   font-family: var(--font-family-inter);
-  border-radius: var(--border-radius-12px);
+  border-radius: var(--border-radius-6px);
   border: none;
   font-size: 2rem;
   &:hover {
