@@ -10,20 +10,14 @@
   --color-logo-dark: #7B7070;
   --color-icons: #7B7070;
   --color-active: #FF0000;
-  --color-text-dark: #7B7070;
+  --color-text: #7B7070;
   --color-text-light: #FFFFFF;
-
-  --color-bg-body: #FAEEE3;
-  --color-bg-intro: rgba(185, 185, 185, 0.19);
-  --color-bg-card-gamehub: #F8EEC9;
-  --color-bg-card-cms: #F8EEC9;
-  --color-bg-card-chefstable: #F8EEC9;
 
   --color-red: #FF0000;
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-dark-beige: #7B7070;
-  --color-yellow-gamehub: #F5C618;
+  --color-yellow: #F5C618;
 
   --font-family-koho: 'KoHo', sans-serif;
   --font-family-inter: 'Inter', sans-serif;
@@ -35,29 +29,14 @@
   padding: 0;
 }
 
-.out-of-view {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-  color: #000000;
-}
-
 .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: flex-start;
-  max-width: 1600px;
 }
 
 .flex-column {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-body {
-  font-family: var(--font-family-inter);
-  background-color: var(--color-bg-body);
+  justify-content: space-around;
 }
