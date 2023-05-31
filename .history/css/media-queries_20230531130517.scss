@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+  .header-left {
+    max-height: 80px;
+  }
+  .header-left {
+    width: 60%;
+    height: 100%;
+    // max-width: 50%;
+    background-image: url(../images/logo-foo.svg);
+  }
+}
+
+@media (max-width: 400px) {
+  .header-left {
+    max-height: 60px;
+  }
+}

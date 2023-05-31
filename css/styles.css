@@ -3,6 +3,7 @@
   --border-radius-6px: 6px;
   --border-radius-12px: 12px;
   --box-shadow-buttons: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  --box-shadow-buttons-hover: 2px 2px 14px 4px rgba(0, 0, 0, 0.25);
   --box-shadow-card: 5px 5px 14px 4px rgba(0, 0, 0, 0.25);
   --box-shadow-intro: 4px 4px 16px 5px rgba(0, 0, 0, 0.25);
   --color-logo-dark: #7B7070;
@@ -15,6 +16,7 @@
   --color-bg-card-gamehub: #F8EEC9;
   --color-bg-card-cms: #F8EEC9;
   --color-bg-card-chefstable: #F8EEC9;
+  --color-bg-button-hover: #fadddd;
   --color-red: #FF0000;
   --color-white: #FFFFFF;
   --color-black: #000000;
@@ -58,17 +60,17 @@ body {
   align-items: center;
 }
 
-.active {
-  color: var(--color-active);
-}
-
 .header {
   width: 100%;
   height: 150px;
 }
 
 .header-left {
-  width: 50%;
+  width: 40%;
+  height: 100%;
+  background-image: url(../images/logo-header-full.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .logos-left {
@@ -82,10 +84,11 @@ body {
 }
 
 .header-right {
+  position: relative;
   max-width: 100%;
-  width: 50%;
+  width: 60%;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100%;
 }
 
@@ -93,21 +96,49 @@ body {
   height: 50%;
 }
 
-.navbar {
-  gap: 2em;
+.hamburger {
+  justify-content: flex-start;
   align-items: flex-end;
+  width: 64px;
+  height: 64px;
+  max-height: 100%;
+  background-image: url(../images/ico-menu-dark.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar {
+  gap: 1em;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .nav-button {
-  min-width: 160px;
-  padding: 0.7rem 1.5rem;
+  width: 160px;
+  height: 48px;
+  max-width: 100%;
+  padding-bottom: 4px;
   background-color: var(--color-white);
   box-shadow: var(--box-shadow-buttons);
-  font-family: var(--font-family-inter);
+  font-family: var(--font-family-koho);
+  font-weight: 500;
+  color: var(--color-text-dark);
   border-radius: var(--border-radius-12px);
   border: none;
   font-size: 2rem;
 }
 .nav-button:hover {
   cursor: pointer;
+  box-shadow: var(--box-shadow-buttons-hover);
+  background-color: var(--color-bg-button-hover);
+}
+
+.active {
+  color: var(--color-active);
+}
+.active:hover {
+  color: var(--color-text-dark);
+  background-color: var(--color-white);
+  cursor: default;
 }/*# sourceMappingURL=styles.css.map */
