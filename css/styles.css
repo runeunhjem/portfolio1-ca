@@ -142,4 +142,64 @@ body {
   color: var(--color-text-dark);
   background-color: var(--color-white);
   cursor: default;
+}
+
+.intro {
+  width: 100vw;
+  height: 250px;
+  align-items: flex-start;
+  background-color: var(--color-bg-intro);
+  color: var(--color-text-dark);
+  margin-top: 2em;
+  padding: 1em;
+  font-family: var(--font-family-koho);
+  font-size: 1.5rem;
+  box-shadow: var(--box-shadow-intro);
+}
+
+.intro-left {
+  height: 100%;
+  width: 15%;
+  background-position: top center;
+  background-image: url(../images/image-rune-bw.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: var(--border-radius-12px);
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.intro-right {
+  height: 100%;
+  width: 80%;
+  align-items: flex-start;
+}
+.intro-right p {
+  width: 100%;
+}
+
+.read-about-me {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.arrow-big {
+  margin-left: 1em;
+  max-height: 70%;
+  align-items: center;
+  height: 36px;
+  animation: nudge-animation 2s infinite alternate;
+}
+
+@keyframes nudge-animation {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  16.67%, 50%, 83.33% {
+    transform: translateX(10px);
+  }
 }/*# sourceMappingURL=styles.css.map */

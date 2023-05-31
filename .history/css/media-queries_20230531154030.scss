@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+  // .header-left {
+  //   background-image: url(../images/logo-footer-rd-with-text.svg);
+  // }
+}
+
+@media (max-width: 600px) {
+  .header-left {
+    background-image: url(../images/logo-footer-rd-with-text.svg);
+  }
+  .navbar {
+    display: none;
+  }
+  // .header-right {
+  //   border-bottom: 1px solid var(--color-active);
+  // }
+}
+
+@media (max-width: 400px) {
+  .header-left {
+    max-height: 120px;
+  }
+  .intro-left {
+    width: 50%;
+  }
+  .intro-right {
+    width: 50%
+  }
+}
