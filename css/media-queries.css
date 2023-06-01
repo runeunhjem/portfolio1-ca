@@ -21,6 +21,9 @@
     padding-left: 10px;
     font-size: 1.4rem;
   }
+  .footer-container {
+    width: 100vw;
+  }
 }
 @media (max-width: 600px) {
   .header-left {
@@ -55,6 +58,9 @@
     padding-left: 12px;
     font-size: 0.9rem;
   }
+  .read-about-me {
+    font-size: 0.8rem;
+  }
   .arrow-big {
     height: 24px;
   }
@@ -63,9 +69,21 @@
   .header {
     height: 120px;
   }
+  .intro-right {
+    font-size: 0.8rem;
+  }
+  .read-about-me {
+    font-size: 0.65rem;
+  }
 }
 @media (max-width: 360px) {
   .header {
     height: 100px;
+  }
+  .read-about-me {
+    font-size: 0.6rem;
+  }
+  .intro {
+    height: 200px;
   }
 }/*# sourceMappingURL=media-queries.css.map */
