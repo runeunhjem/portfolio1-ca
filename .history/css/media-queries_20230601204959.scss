@@ -35,9 +35,6 @@
   .footer-container {
     width: 100vw;
   }
-  #phone, #mail, #weblink {
-    width: 100vw;
-  }
 }
 
 @media (max-width: 600px) {
@@ -63,6 +60,9 @@
     margin-top: 0.2em;
   }
   .footer-center {
+    #phone, #mail, #weblink {
+      width: 100vw;
+    }
     max-width: 100%;
   }
   .social {

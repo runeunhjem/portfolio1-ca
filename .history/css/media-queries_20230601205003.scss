@@ -35,9 +35,6 @@
   .footer-container {
     width: 100vw;
   }
-  #phone, #mail, #weblink {
-    width: 100vw;
-  }
 }
 
 @media (max-width: 600px) {
@@ -54,6 +51,9 @@
     width: 70%;
     padding-left: 15px;
     font-size: 1.2rem;
+  }
+  #phone, #mail, #weblink {
+    width: 100vw;
   }
 }
 @media (max-width: 500px) {
