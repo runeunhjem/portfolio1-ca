@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+  .header-left {
+    background-image: url(../images/logo-footer-rd-with-text.svg);
+  }
+}
+@media (max-width: 400px) {
+  .header-left {
+    max-height: 60px;
+  }
+}/*# sourceMappingURL=media-queries_20230531130741.css.map */
