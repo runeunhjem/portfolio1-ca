@@ -1,0 +1,16 @@
+.footer-container {
+  color: var(--color-text-dark);
+  background-color: var(--color-bg-intro);
+}
+
+.footer-left, .footer-center, .footer-right {
+  width: 33.33%;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  font-size: 1rem;
+  align-items: center;
+}/*# sourceMappingURL=footer_20230601111715.css.map */

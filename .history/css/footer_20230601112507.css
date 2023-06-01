@@ -1,0 +1,29 @@
+.footer-container {
+  color: var(--color-text-dark);
+  background-color: var(--color-bg-intro);
+}
+
+.footer-left, .footer-center, .footer-right {
+  width: 33.33%;
+}
+
+.footer-right {
+  justify-content: center;
+}
+
+.footer-logo {
+  display: flex;
+  height: 140px;
+  width: 100%;
+  background-image: url(../images/logo-footer-rd-with-text.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.copyright {
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40px;
+  font-size: 1rem;
+}/*# sourceMappingURL=footer_20230601112507.css.map */
