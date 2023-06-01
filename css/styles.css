@@ -72,7 +72,6 @@ body {
 .instagram-icon:before,
 .github-icon:before,
 .spotify-icon:before {
-  display: none;
   content: url(../images/ico-linkedin-red.svg) url(../images/ico-facebook-red.svg) url(../images/ico-instagram-red.svg) url(../images/ico-github-red.svg) url(../images/ico-spotify-red.svg);
 }
 
