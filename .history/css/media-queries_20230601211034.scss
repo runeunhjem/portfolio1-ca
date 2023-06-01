@@ -4,6 +4,7 @@
     overflow-x: hidden;
     height: 280px;
   }
+
 }
 @media (max-width: 1080px) {
   .tablet-wide {
@@ -18,11 +19,18 @@
     align-items: center;
     gap: 1.5em;
     width: 100vw;
+    .footer-logo {
+      height: 100px;
+    }
   }
-  #footer-container .footer-logo {
-    height: 100px;
+  .intro {
+    width: 100vw;
+    overflow-x: hidden;
+    // height: 280px;
+    // margin-top: 0.2em;
   }
 }
+
 @media (max-width: 768px) {
   .tablet {
     display: none;
@@ -45,15 +53,13 @@
     width: 100vw;
   }
 }
+
 @media (max-width: 600px) {
   .header-left {
     background-image: url(../images/logo-footer-rd-with-text.svg);
   }
   .navbar {
     display: none;
-  }
-  .intro {
-    height: 230px;
   }
   .intro-left {
     width: 30%;
@@ -81,6 +87,7 @@
     height: 200px;
   }
 }
+
 @media (max-width: 450px) {
   .intro {
     margin-top: 0;
@@ -93,6 +100,7 @@
     padding-left: 12px;
     font-size: 0.9rem;
   }
+
   .read-about-me {
     font-size: 0.8rem;
   }
@@ -104,6 +112,7 @@
     justify-content: center;
   }
 }
+
 @media (max-width: 400px) {
   .header {
     height: 120px;
@@ -115,6 +124,7 @@
     font-size: 0.65rem;
   }
 }
+
 @media (max-width: 360px) {
   .header {
     height: 100px;
@@ -125,4 +135,4 @@
   .intro {
     height: 200px;
   }
-}/*# sourceMappingURL=media-queries.css.map */
+}
