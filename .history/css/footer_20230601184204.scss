@@ -1,0 +1,119 @@
+.footer-container {
+  color: var(--color-text-dark);
+  background-color: var(--color-bg-intro);
+  flex-wrap: wrap;
+
+}
+.footer-left, .footer-center, .footer-right {
+  flex: 1;
+  max-width: 33.33%;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  font-weight: 500;
+}
+.footer-left {
+  justify-content: flex-start;
+}
+.footer-links {
+  li {
+    margin: 0.4em;
+    &:hover {
+      cursor: pointer;
+      border-radius: var(--border-radius-6px);
+      color: var(--color-black);
+      box-shadow: var(--box-shadow-buttons);
+      border-radius: var(--border-radius-6px);
+    }
+    .active {
+      background-color: var(--color-bg-intro);
+      box-shadow: var(--box-shadow-buttons);
+      border-radius: var(--border-radius-6px);
+      border: none;
+      transition: all 0.1s ease-in-out;
+      &:hover{
+        box-shadow: 0px 0px 0px 0px transparent;
+      }
+    }
+    a {
+      min-width: 120px;
+      padding: 0.2rem 0rem 0.2rem 1rem;
+    }
+  }
+}
+.footer-center {
+  justify-content: space-between;
+  p {
+    text-align: center;
+    width: 100%;
+    a {
+      min-width: 300px;
+      max-width: 100%;
+    }
+  }
+}
+.footer-center {
+  p {
+    a {
+      width: 100%;
+        &:hover {
+          box-shadow: var(--box-shadow-buttons);
+          border-radius: var(--border-radius-6px);
+          color: var(--color-red);
+          width: 300px;
+        }
+    }
+  }
+}
+#phone, #email, .we {
+  width: 300px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.social {
+  flex-wrap: nowrap;
+}
+.social-icon {
+  border-radius: 50%;
+}
+.social-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+
+.linkedin-icon:hover {
+  content: url(../images/ico-linkedin-red.svg);
+}
+.facebook-icon:hover {
+  content: url(../images/ico-facebook-red.svg);
+}
+.instagram-icon:hover {
+  content: url(../images/ico-instagram-red.svg);
+}
+.github-icon:hover {
+  content: url(../images/ico-github-red.svg);
+}
+.spotify-icon:hover {
+  content: url(../images/ico-spotify-red.svg);
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  height:90%;
+  width: 100%;
+  background-image: url(../images/logo-footer-rd-with-text.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.copyright {
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40px;
+  font-size: 1rem;
+  color: var(--color-text-dark);
+}
