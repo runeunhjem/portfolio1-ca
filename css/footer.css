@@ -50,12 +50,13 @@
   max-width: 100%;
 }
 
-#phone:hover, #weblink:hover, #mail:hover {
+.footer-center p a {
+  width: 100%;
+}
+.footer-center p a:hover {
   box-shadow: var(--box-shadow-buttons);
   border-radius: var(--border-radius-6px);
   color: var(--color-red);
-  min-width: 300px;
-  text-align: center;
   width: 300px;
 }
 
