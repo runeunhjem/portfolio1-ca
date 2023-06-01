@@ -67,26 +67,15 @@
 }
 .social {
   flex-wrap: nowrap;
-  transition: all 0.1s ease-in-out;
+  transition: scale(1.1);
 }
 .social-icon {
   border-radius: 50%;
-  // fill: var(--color-text-dark);
+  fill: var(--color-text-dark);
+  transition: all 0.1s ease-in-out;
 }
-.linkedin-icon:hover {
-  content: url(../images/ico-linkedin-red.svg);
-}
-.facebook-icon:hover {
-  content: url(../images/ico-facebook-red.svg);
-}
-.instagram-icon:hover {
-  content: url(../images/ico-instagram-red.svg);
-}
-.github-icon:hover {
-  content: url(../images/ico-github-red.svg);
-}
-.spotify-icon:hover {
-  content: url(../images/ico-spotify-red.svg);
+.social-icon:hover {
+  fill: var(--color-red);
 }
 
 .footer-logo {
