@@ -13,13 +13,16 @@
   font-weight: 500;
 }
 .footer-left {
-  justify-content: flex-start;
+  justify-content: end;
 }
 .footer-links {
   li {
     margin: 0.4em;
     &:hover {
+      // background-color: var(--color-white);
       cursor: pointer;
+      // background-color: var(--color-white);
+      // box-shadow: var(--box-shadow-buttons);
       border-radius: var(--border-radius-6px);
       color: var(--color-black);
       box-shadow: var(--box-shadow-buttons);
@@ -27,6 +30,7 @@
     }
     .active {
       background-color: var(--color-bg-intro);
+      // box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
       box-shadow: var(--box-shadow-buttons);
       border-radius: var(--border-radius-6px);
       border: none;
@@ -56,14 +60,16 @@
           box-shadow: var(--box-shadow-buttons);
           border-radius: var(--border-radius-6px);
           color: var(--color-red);
+          // min-width: 300px;
+          // text-align: center;
           width: 300px;
         }
     }
   }
 }
 .phone {
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 .social {
   flex-wrap: nowrap;
@@ -75,6 +81,7 @@
 }
 .social-icon:hover {
   fill: var(--color-red);
+
 }
 
 .footer-logo {
