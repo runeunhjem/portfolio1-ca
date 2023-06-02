@@ -1,3 +1,15 @@
+@media (max-width: 1300px) {
+  .projects-carousel {
+    margin-bottom: 2em;
+    width: 100vw;
+    max-width: 100%;
+  }
+  .project-container {
+    margin-bottom: 2em;
+    width: 600px;
+    max-width: 100%;
+  }
+}
 @media (max-width: 1200px) {
   .intro {
     width: 100vw;

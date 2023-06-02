@@ -136,7 +136,7 @@ body {
   padding-bottom: 4px;
   font-family: var(--font-family-koho);
   font-weight: 500;
-  background-color: var(--color-white);
+  background-color: var(--color-bg-intro);
   color: var(--color-text-dark);
   box-shadow: var(--box-shadow-buttons);
   border-radius: var(--border-radius-6px);
@@ -159,8 +159,9 @@ body {
   cursor: default;
 }
 
-.intro, .footer-container {
+.intro, .footer-container, .project-container {
   width: 100%;
+  max-width: 1600px;
   height: 250px;
   align-items: flex-start;
   background-color: var(--color-bg-intro);
