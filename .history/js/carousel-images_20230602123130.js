@@ -29,7 +29,7 @@
      currentIndex = (currentIndex + 1) % imageFilenames.length;
      loadCurrentImage();
      carouselContainer.classList.remove("slide-left");
-   }, 300); // Adjust the transition duration to match your CSS
+   }, 500); // Adjust the transition duration to match your CSS
  }
 
   function goToPreviousImage() {
