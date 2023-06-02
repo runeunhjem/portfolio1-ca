@@ -15,7 +15,7 @@
 }
 
 .project-top {
-  height: 100px;
+  height: auto;
   align-items: baseline;
 }
 
@@ -26,6 +26,7 @@
 
 .project-tagline {
   font-weight: 500;
+  text-align: center;
 }
 
 .project-description {
@@ -49,6 +50,7 @@
 }
 
 .button {
+  justify-content: center;
   width: 172px;
   padding: 5px 6px;
   font-family: var(--font-family-koho);
@@ -68,7 +70,7 @@
 
 .project-image-carousel {
   align-items: center;
-  margin-top: 1em;
+  margin: 0.5em auto;
   max-width: 100%;
   flex-wrap: nowrap;
 }
@@ -85,7 +87,6 @@
 .images-container {
   width: 800px;
   overflow: hidden;
-  margin: 1em auto;
 }
 
 .carousel-images {
@@ -99,7 +100,7 @@
   border-radius: var(--border-radius-12px);
   box-shadow: var(--box-shadow-card);
   position: relative;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.1s ease-in-out;
 }
 
 .slide-left {
@@ -125,10 +126,20 @@
   color: var(--color-text-dark);
   font-size: 1.5rem;
   padding: 6px 30px;
+  align-items: center;
+  position: relative;
 }
 .projects-btn:hover {
-  background-color: var(--color-text-dark);
-  color: var(--color-white);
+  background-color: var(--color-text-light);
+}
+.projects-btn .star-left {
+  height: 60%;
+  transform: scaleX(-1);
+  margin-right: 0.5em;
+}
+.projects-btn .star-right {
+  height: 60%;
+  margin-left: 0.5em;
 }
 
 .projects-counter, .button-container {
