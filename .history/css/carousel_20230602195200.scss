@@ -90,23 +90,33 @@
   max-height: 100%;
   overflow: hidden;
   border-radius: var(--border-radius-12px);
+  // box-shadow: var(--box-shadow-card);
   margin: 1em auto;
 }
 
 .carousel-images {
   align-items: center;
   justify-content: center;
+  // object-fit: contain;
   background-image: url(../images/gamehub/gamehub-1.jpg);
   background-size: cover;
+  background
   background-repeat: no-repeat;
   max-width: 100%;
   aspect-ratio: 16/9;
+  // aspect-ratio: 4/3;
   border-radius: var(--border-radius-12px);
   width: 100%;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
+// .carousel-images.previous {
+//   transform: translateX(-100%);
+// }
 
+// .carousel-images.next {
+//   transform: translateX(100%);
+// }
 .projects-carousel-nav {
   max-width: 100%;
   width: 100%;

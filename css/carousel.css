@@ -100,19 +100,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 16/9;
   border-radius: var(--border-radius-12px);
   width: 100%;
   height: auto;
   transition: transform 0.3s ease-in-out;
-}
-
-.carousel-images.previous {
-  transform: translateX(-100%);
-}
-
-.carousel-images.next {
-  transform: translateX(100%);
 }
 
 .projects-carousel-nav {

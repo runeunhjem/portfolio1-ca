@@ -1,5 +1,5 @@
-const leftArrow = document.querySelector(".left-arrow");
-const rightArrow = document.querySelector(".right-arrow");
+const leftArrow = document.querySelector(".left-arrow img");
+const rightArrow = document.querySelector(".right-arrow img");
 const carouselContainer = document.getElementById("carousel-images");
 const imageFilenames = [
   "gamehub-1.jpg",
