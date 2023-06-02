@@ -2,14 +2,16 @@
   margin-bottom: 2em;
   width: 100%;
   max-width: 1600px;
+  font-size: 1rem;
 }
 
 .heading {
+  justify-content: center;
+  text-align: center;
   margin: 1em auto;
   font-size: 3em;
   font-family: var(--font-family-koho);
   color: var(--color-text-dark);
-  text-decoration: underline;
 }
 
 .project-top {
@@ -20,6 +22,10 @@
 .project-title {
   font-size: 2em;
   align-items: flex-start;
+}
+
+.project-tagline {
+  font-weight: 500;
 }
 
 .project-description {
@@ -37,8 +43,8 @@
 }
 
 .project-links {
-  width: 800px;
-  max-width: 800px;
+  gap: 0.5em;
+  max-width: 100%;
   justify-content: space-evenly;
 }
 
@@ -61,35 +67,56 @@
 
 .project-image-carousel {
   align-items: center;
-  width: 1100px;
+  margin-top: 1em;
   max-width: 100%;
   flex-wrap: nowrap;
 }
 
+.left-arrow, .right-arrow {
+  cursor: pointer;
+}
 .left-arrow img, .right-arrow img {
+  max-width: 100%;
   width: 100px;
   height: auto;
 }
 
-.carousel-images {
+.images-container {
+  width: 800px;
+  overflow: hidden;
   margin: 1em auto;
+}
+
+.carousel-images {
   align-items: center;
   justify-content: center;
   background-image: url(../images/gamehub/gamehub-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 800px;
   max-width: 100%;
   aspect-ratio: 16/9;
   border-radius: var(--border-radius-12px);
   box-shadow: var(--box-shadow-card);
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+
+.slide-left {
+  transform: translateX(100%);
+}
+
+.slide-right {
+  transform: translateX(-100%);
 }
 
 .projects-carousel-nav {
+  max-width: 100%;
   width: 100%;
+  min-width: 300px;
   align-items: center;
   margin: 1em auto;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 0.8em;
 }
 
 .projects-btn {
@@ -103,12 +130,19 @@
   color: var(--color-white);
 }
 
-.projects-counter, .count {
+.projects-counter, .button-container {
+  display: flex;
   font-size: 1.5rem;
   font-family: var(--font-family-koho);
   color: var(--color-text-dark);
-  font-weight: 500;
-  margin: 0 1em;
+  font-weight: 600;
+  justify-content: center;
+  width: 50%;
+  gap: 2em;
+}
+
+.count {
+  margin: 0 0.4em;
 }
 
 .project-top-left, .project-top-right {
