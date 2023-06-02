@@ -5,7 +5,7 @@
   --box-shadow-buttons: 4px 4px 4px rgba(0, 0, 0, 0.25);
   --box-shadow-buttons-hover: 2px 2px 14px 4px rgba(0, 0, 0, 0.25);
   --box-shadow-buttons-inset: inset 2px 2px 14px 4px rgba(0, 0, 0, 0.25);
-  --box-shadow-card: 5px 5px 14px 4px rgba(0, 0, 0, 0.25);
+  --box-shadow-card: 5px 5px 12px 4px rgba(0, 0, 0, 0.45);
   --box-shadow-intro: 4px 4px 16px 5px rgba(0, 0, 0, 0.25);
   --color-logo-dark: #7B7070;
   --color-icons: #7B7070;

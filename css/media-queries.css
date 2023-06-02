@@ -105,6 +105,12 @@
   }
 }
 @media (max-width: 450px) {
+  .button-container {
+    gap: 0.5em;
+  }
+  .projects-btn {
+    padding: 6px 10px;
+  }
   .intro {
     margin-top: 0;
   }
