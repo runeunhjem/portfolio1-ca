@@ -1,0 +1,70 @@
+.projects-carousel {
+  margin-bottom: 2em;
+}
+
+.heading {
+  margin: 1em auto;
+  font-size: 3em;
+  font-family: var(--font-family-koho);
+  color: var(--color-text-dark);
+  text-decoration: underline;
+}
+
+.project-top {
+  height: 100px;
+  align-items: center;
+}
+
+.project-title {
+  font-size: 2em;
+  align-items: flex-start;
+}
+
+.project-container {
+  padding: 0em 1em 1em 1em;
+  margin-bottom: 1em;
+  margin-top: 0;
+  height: auto;
+  align-items: center;
+  max-width: 1600px;
+}
+
+.button {
+  padding: 5px 6px;
+  font-family: var(--font-family-koho);
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--color-text-dark);
+  border-radius: var(--border-radius-6px);
+  box-shadow: var(--box-shadow-buttons);
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+  color: var(--color-black);
+}
+
+.project-image-carousel {
+  align-items: center;
+}
+
+.carousel-images {
+  margin: 1em auto;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/gamehub/gamehub-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 800px;
+}
+
+.projects-carousel-nav {
+  width: 30%;
+  align-items: center;
+}
+
+.projects-btn {
+  background-color: var(--color-);
+}/*# sourceMappingURL=carousel_20230602075109.css.map */

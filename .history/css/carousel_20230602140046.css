@@ -1,0 +1,155 @@
+.projects-carousel {
+  margin-bottom: 2em;
+  width: 100%;
+  max-width: 1600px;
+  font-size: 1rem;
+}
+
+.heading {
+  justify-content: center;
+  text-align: center;
+  margin: 1em auto;
+  font-size: 3em;
+  font-family: var(--font-family-koho);
+  color: var(--color-text-dark);
+}
+
+.project-top {
+  height: auto;
+  align-items: baseline;
+}
+
+.project-title {
+  font-size: 2em;
+  align-items: flex-start;
+}
+
+.project-tagline {
+  font-weight: 500;
+  text-align: center;
+}
+
+.project-description {
+  max-width: 800px;
+  margin-bottom: 1em;
+}
+
+.project-container {
+  padding: 0em 1em 2em 1em;
+  margin-bottom: 1em;
+  margin-top: 0;
+  height: auto;
+  align-items: center;
+  max-width: 100%;
+}
+
+.project-links {
+  gap: 1em;
+  max-width: 100%;
+  justify-content: space-evenly;
+}
+
+.button {
+  justify-content: center;
+  width: 172px;
+  padding: 5px 6px;
+  font-family: var(--font-family-koho);
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--color-text-dark);
+  background-color: var(--color-yellow-gamehub);
+  border-radius: var(--border-radius-6px);
+  box-shadow: var(--box-shadow-buttons);
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+  color: var(--color-black);
+}
+
+.project-image-carousel {
+  align-items: center;
+  margin: 0.5em auto;
+  max-width: 100%;
+  flex-wrap: nowrap;
+}
+
+.left-arrow, .right-arrow {
+  cursor: pointer;
+}
+.left-arrow img, .right-arrow img {
+  max-width: 100%;
+  width: 100px;
+  height: auto;
+}
+
+.images-container {
+  width: 800px;
+  overflow: hidden;
+  border-radius: var(--border-radius-12px);
+  box-shadow: var(--box-shadow-card);
+  margin: 1em auto;
+}
+
+.carousel-images {
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  border-radius: var(--border-radius-12px);
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects-carousel-nav {
+  max-width: 100%;
+  width: 100%;
+  min-width: 300px;
+  align-items: center;
+  margin: 1em auto;
+  justify-content: center;
+  gap: 0.8em;
+}
+
+.projects-btn {
+  background-color: var(--color-button-hover);
+  color: var(--color-text-dark);
+  font-size: 1.5rem;
+  padding: 6px 30px;
+  align-items: center;
+  position: relative;
+}
+.projects-btn:hover {
+  background-color: var(--color-text-light);
+}
+.projects-btn .star-left {
+  height: 60%;
+  transform: scaleX(-1);
+  margin-right: 0.5em;
+}
+.projects-btn .star-right {
+  height: 60%;
+  margin-left: 0.5em;
+}
+
+.projects-counter, .button-container {
+  display: flex;
+  font-size: 1.5rem;
+  font-family: var(--font-family-koho);
+  color: var(--color-text-dark);
+  font-weight: 600;
+  justify-content: center;
+  width: 50%;
+  gap: 2em;
+}
+
+.count {
+  margin: 0 0.4em;
+}
+
+.project-top-left, .project-top-right {
+  align-items: flex-start;
+}/*# sourceMappingURL=carousel_20230602140046.css.map */
