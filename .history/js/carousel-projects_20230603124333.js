@@ -137,7 +137,7 @@ const project3Container = createProjectContainer(
   "CHEF'S TABLE",
   "Cooking With Love.",
   "Project Exam 1. Make a blog for a fictional restaurant. The site should be responsive, and the audience is assumed to be people who are interested in food and cooking. Made with HTML, CSS, and JS. No libraries or frameworks were used.",
-  ["ct-1.jpg", "ct-2.jpg", "ct-3.jpg", "ct-4.jpg", "ct-5.jpg", "ct-6.jpg", "ct-7.jpg", "ct-8.jpg"],
+  ["ct-1.jpg", "ct-2.jpg", "ct-3.jpg", "ct-4.jpg", "ct-5.jpg", "ct-6.jpg", "ct-7.jpg", "ct-8.jpg""],
   [
     { label: "Visit Project 3", url: "https://ru-project-exam-1.netlify.app" },
     { label: "GitHub Repository", url: "https://github.com/runeunhjem/07-ru-project-exam-1-chefs-table" },
