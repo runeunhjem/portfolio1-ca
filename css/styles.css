@@ -10,7 +10,7 @@
   --color-logo-dark: #7B7070;
   --color-icons: #7B7070;
   --color-active: #FF0000;
-  --color-text-dark: #7B7070;
+  --color-text-dark: #615a5a;
   --color-text-light: #FFFFFF;
   --color-bg-body: #FAEEE3;
   --color-bg-intro: rgba(185, 185, 185, 0.19);
@@ -21,7 +21,7 @@
   --color-red: #FF0000;
   --color-white: #FFFFFF;
   --color-black: #000000;
-  --color-dark-beige: #7B7070;
+  --color-dark-beige: rgb(85, 77, 77);
   --color-yellow-gamehub: #F5C618;
   --font-family-koho: "KoHo", sans-serif;
   --font-family-inter: "Inter", sans-serif;
@@ -31,6 +31,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+button {
+  background-color: var(--color-white);
 }
 
 .out-of-view {
