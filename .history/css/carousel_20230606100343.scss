@@ -6,7 +6,6 @@
   position: relative;
   overflow: hidden;
 }
-
 .carousel {
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -15,6 +14,7 @@
 .carousel-item {
   flex: 0 0 100%;
   max-width: 100%;
+  // box-shadow: var(--box-shadow-intro);
 }
 
 .heading {
@@ -30,13 +30,11 @@
   height: auto;
   align-items: baseline;
 }
-
 .project-title {
   font-size: 2em;
   align-items: flex-start;
   margin-top: 0.5em;
 }
-
 .project-tagline {
   font-weight: 500;
   text-align: center;
@@ -55,6 +53,7 @@
   height: auto;
   align-items: center;
   max-width: 100%;
+
 }
 
 .project-links {
@@ -67,12 +66,10 @@
   background-color: var(--color-yellow-gamehub);
   color: var(--color-black);
 }
-
 .button-project2 {
   background-color: var(--color-blue-csm);
   color: var(--color-white);
 }
-
 .button-project3 {
   color: var(--color-white);
   background-color: var(--color-burgundy-chefs-table);
@@ -88,12 +85,12 @@
   border-radius: var(--border-radius-6px);
   box-shadow: var(--box-shadow-buttons);
   border: none;
-}
-.button:hover {
-  cursor: pointer;
-  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.45);
-  color: var(--color-text-dark);
-  background-color: var(--color-bg-button-hover);
+  &:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.45);
+    color: var(--color-text-dark);
+    background-color: var(--color-bg-button-hover);
+  }
 }
 
 .project-image-carousel {
@@ -102,18 +99,17 @@
   max-width: 100%;
   flex-wrap: nowrap;
 }
-
 .left-arrow, .right-arrow {
   cursor: pointer;
-}
-.left-arrow img, .right-arrow img {
-  max-width: 100%;
-  width: 100px;
-  height: auto;
+  img {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+  }
 }
 
 .images-container {
-  width: 800px;
+  width:800px;
   height: auto;
   max-height: 100%;
   overflow: hidden;
@@ -137,15 +133,13 @@
 
 .project1-images {
   background-image: url(../images/gamehub/gamehub-1.jpg);
-}
-
+ }
 .project2-images {
   background-image: url(../images/csm/cms-1.jpg);
-}
-
+ }
 .project3-images {
   background-image: url(../images/chefs-table/ct-1.jpg);
-}
+ }
 
 .projects-carousel-nav {
   max-width: 100%;
@@ -164,18 +158,18 @@
   padding: 6px 30px;
   align-items: center;
   position: relative;
-}
-.projects-btn:hover {
-  background-color: var(--color-text-light);
-}
-.projects-btn .star-left {
-  height: 60%;
-  transform: scaleX(-1);
-  margin-right: 0.5em;
-}
-.projects-btn .star-right {
-  height: 60%;
-  margin-left: 0.5em;
+  &:hover {
+    background-color: var(--color-text-light);
+  }
+  .star-left {
+    height: 60%;
+    transform: scaleX(-1);
+    margin-right: 0.5em;
+  }
+  .star-right {
+    height: 60%;
+    margin-left: 0.5em;
+  }
 }
 
 .projects-counter, .button-container, .image-counter {
@@ -189,22 +183,17 @@
   gap: 2em;
   margin-bottom: 0.5em;
 }
-
 .count, .image-count {
   margin: 0 0.4em;
 }
 
-.image-counter {
-  text-align: center;
-}
 
 .project-top-left, .project-top-right {
   align-items: flex-start;
 }
-
 .card-container {
   padding: 0;
   gap: 2em;
   background-color: transparent;
   box-shadow: none;
-}/*# sourceMappingURL=carousel.css.map */
+}
