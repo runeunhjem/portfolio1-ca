@@ -21,19 +21,19 @@ const hamburger = document.querySelector(".hamburger");
 const flyInMenu = document.querySelector(".fly-in-menu");
 
 hamburger.addEventListener("click", () => {
-  const menuIsOpen = flyInMenu.style.top > "0px";
+  const menuIsOpen = flyInMenu.style.right === "0px";
 
   if (menuIsOpen) {
-    flyInMenu.style.top = "-150%"; // Close the menu
+    flyInMenu.style.top = "-300px"; // Close the menu
   } else {
-    flyInMenu.style.top = "4.5em"; // Open the menu
+    flyInMenu.style.top = "0"; // Open the menu
   }
 });
 
 document.addEventListener("click", (event) => {
   const targetElement = event.target;
   if (targetElement !== hamburger && !flyInMenu.contains(targetElement)) {
-    flyInMenu.style.top = "-150%";
+    flyInMenu.style.right = "-150%";
   }
 });
 
@@ -41,6 +41,6 @@ flyInMenu.addEventListener("click", (event) => {
   if (event.target.classList.contains("fly-in-item")) {
     const menuItemText = event.target.textContent;
     console.log(`Clicked menu item: ${menuItemText}`);
-    flyInMenu.style.top = "-150%";
+    flyInMenu.style.right = "-150%";
   }
 });

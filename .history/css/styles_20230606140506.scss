@@ -226,13 +226,13 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 0.4em;
-  right: 30px;
+  top: 100px;
   top: -150%;
   width: 300px;
   height: auto;
   background-color: var(--color-icons);
   border-radius: var(--border-radius-6px);
-  transition: top 0.3s ease-in-out;
+  transition: right 0.3s ease-in-out;
 }
 
 .fly-in-item {
