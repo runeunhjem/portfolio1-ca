@@ -12,12 +12,12 @@
   --color-active: #FF0000;
   --color-text-dark: #615a5a;
   --color-text-light: #FFFFFF;
-  --color-bg-body: #FAEEE3;
+  --color-bg-body: rgb(250, 238, 227);
   --color-bg-intro: rgba(185, 185, 185, 0.19);
-  --color-bg-card-gamehub: #F8EEC9;
+  --color-bg-intro-full: rgb(250, 238, 227);
   --color-bg-card-cms: #F8EEC9;
   --color-bg-card-chefstable: #F8EEC9;
-  --color-bg-button-hover: #fadddd;
+  --color-bg-button-hover: rgb(250, 220, 220);
   --color-red: #FF0000;
   --color-white: #FFFFFF;
   --color-black: #000000;
@@ -33,6 +33,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 button {
@@ -156,15 +161,6 @@ body {
   font-size: 1.95rem;
 }
 
-.active {
-  color: var(--color-active);
-}
-.active:hover {
-  color: var(--color-text-dark);
-  background-color: var(--color-white);
-  cursor: default;
-}
-
 .intro, .footer-container, .project-container {
   width: 100%;
   max-width: 1600px;
@@ -221,6 +217,85 @@ body {
   animation: nudge-animation 2s infinite alternate;
 }
 
+.fly-in-menu {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0.4em;
+  top: 100px;
+  right: -300px;
+  width: 300px;
+  height: auto;
+  background-color: var(--color-icons);
+  border-radius: var(--border-radius-6px);
+  transition: right 0.3s ease-in-out;
+}
+
+.fly-in-item {
+  margin: 0.3em auto;
+  justify-content: flex-start;
+  border-radius: var(--border-radius-6px);
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  gap: 10px;
+  display: block;
+  padding: 0.4em 1em;
+  font-size: 1.2rem;
+  background-color: var(--color-bg-intro-full);
+  box-shadow: var(--box-shadow-intro);
+  border: none;
+  cursor: pointer;
+  color: var(--color-black);
+}
+.fly-in-item:hover {
+  background-color: var(--color-white);
+  color: var(--color-active);
+}
+
+.fly-in-item:hover::after {
+  content: url(../images/ico-star-three-points-outline.svg);
+  position: relative;
+  align-items: center;
+  right: -10px;
+}
+
+.menu-list, .project-list {
+  width: 95%;
+  color: var(--color-white);
+  padding: 0.2em auto;
+}
+
+.project-list {
+  max-width: 100%;
+  margin: 0.8em 0 1.6em 0;
+  font-size: 1.4rem;
+}
+
+.weblink {
+  transition: all 0.3s ease-in-out;
+  width: 320px;
+}
+.weblink:hover {
+  box-shadow: var(--box-shadow-buttons);
+  border-radius: var(--border-radius-6px);
+  color: var(--color-red);
+}
+
+.active {
+  color: var(--color-active);
+}
+.active:hover {
+  color: var(--color-text-dark);
+  background-color: var(--color-white);
+  cursor: default;
+}
+
+main {
+  min-height: 50vh;
+}
+
 @keyframes nudge-animation {
   0%, 100% {
     transform: translateX(0);
@@ -228,7 +303,4 @@ body {
   16.67%, 50%, 83.33% {
     transform: translateX(10px);
   }
-}
-main {
-  min-height: 50vh;
 }/*# sourceMappingURL=styles.css.map */

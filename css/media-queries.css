@@ -105,6 +105,9 @@
   }
 }
 @media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
   .button-container {
     gap: 0.5em;
   }
