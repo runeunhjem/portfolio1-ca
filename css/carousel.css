@@ -14,6 +14,7 @@
 
 .carousel-item {
   flex: 0 0 100%;
+  max-width: 100%;
 }
 
 .heading {
@@ -115,6 +116,7 @@
   width: 100%;
   height: auto;
   transition: transform 0.5s;
+  overflow: hidden; /* Add this line */
 }
 
 .carousel-images {
@@ -128,6 +130,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: transform 0.5s ease-in-out; /* Add this line */
 }
 
 .slide-out-left {
@@ -197,7 +200,7 @@
   margin-left: 0.5em;
 }
 
-.projects-counter, .button-container {
+.projects-counter, .button-container, .image-counter {
   display: flex;
   font-size: 1.5rem;
   font-family: var(--font-family-koho);
@@ -206,9 +209,10 @@
   justify-content: center;
   width: 90%;
   gap: 2em;
+  margin-bottom: 0.5em;
 }
 
-.count {
+.count, .image-count {
   margin: 0 0.4em;
 }
 
