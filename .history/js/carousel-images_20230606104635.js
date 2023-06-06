@@ -40,6 +40,7 @@ function preloadImages(imageUrls) {
   });
 }
 
+// Call the preloadImages function with the image URLs for each project
 preloadImages(imageUrls.project1);
 preloadImages(imageUrls.project2);
 preloadImages(imageUrls.project3);
