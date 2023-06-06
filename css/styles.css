@@ -168,7 +168,7 @@ body {
 .intro, .footer-container, .project-container {
   width: 100%;
   max-width: 1600px;
-  height: 250px;
+  height: 270px;
   align-items: flex-start;
   background-color: var(--color-bg-intro);
   color: var(--color-text-dark);
@@ -177,6 +177,10 @@ body {
   font-family: var(--font-family-koho);
   font-size: 1.5rem;
   box-shadow: var(--box-shadow-intro);
+}
+
+.intro {
+  height: 250px;
 }
 
 .intro-left {
