@@ -40,7 +40,9 @@ function loadCurrentImage(container) {
   const position = parseInt(container.dataset.position);
   const imagePath = "images/" + imageUrls[projectClass][position];
   container.style.transition = "background-image 0.3s ease-in-out";
+  // container.style.transition = "transform 0.3s ease-in-out";
   container.style.backgroundImage = `url(${imagePath})`;
+
 }
 
 const carouselContainers = document.querySelectorAll(".carousel-images");

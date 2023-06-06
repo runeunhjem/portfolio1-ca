@@ -40,7 +40,9 @@ function loadCurrentImage(container) {
   const position = parseInt(container.dataset.position);
   const imagePath = "images/" + imageUrls[projectClass][position];
   container.style.transition = "background-image 0.3s ease-in-out";
+  // container.style.transition = "transform 0.3s ease-in-out";
   container.style.backgroundImage = `url(${imagePath})`;
+  // container.style.transform = "translateX(0)"; // Reset the translation
 }
 
 const carouselContainers = document.querySelectorAll(".carousel-images");
@@ -79,8 +81,9 @@ function handleArrowClick(event) {
   }
 
   carouselContainer.dataset.position = newPosition;
-  loadCurrentImage(carouselContainer);
+  loadCurrentImage(carouselContainer); // Move this line here
 
+  console.log("new position after loadCurrentImage: ", carouselContainer.dataset.position);
 
   updateImageCounter(newPosition, maxPosition, projectClass);
 }

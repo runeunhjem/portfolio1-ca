@@ -36,7 +36,7 @@ function createProjectContainer(projectClass, title, tagline, description, image
 
   const buttons = links.map((link) => {
     const button = document.createElement("button");
-    button.classList.add("button", `button-${projectClass}`);
+    button.classList.add("button", `button-${projectClass}`); // Add a custom class based on projectClass
     button.textContent = link.label;
     button.addEventListener("click", () => {
       window.location.href = link.url;
@@ -44,7 +44,7 @@ function createProjectContainer(projectClass, title, tagline, description, image
     return button;
   });
 
-  projectLinks.innerHTML = "";
+  projectLinks.innerHTML = ""; // Clear existing buttons
   buttons.forEach((button) => {
   projectLinks.appendChild(button);
   });

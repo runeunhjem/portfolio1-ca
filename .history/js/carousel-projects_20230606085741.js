@@ -44,7 +44,7 @@ function createProjectContainer(projectClass, title, tagline, description, image
     return button;
   });
 
-  projectLinks.innerHTML = "";
+  projectLinks.innerHTML = ""; // Clear existing buttons
   buttons.forEach((button) => {
   projectLinks.appendChild(button);
   });
