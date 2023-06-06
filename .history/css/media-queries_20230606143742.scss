@@ -69,15 +69,12 @@
     width: 100vw;
   }
 
-  .project-description {
-    height: 150px;
-  }
 }
 
 @media (max-width: 600px) {
   .project-description {
     font-size: 0.9rem;
-    height: 80px;
+    height: 150px;
   }
   .header-left {
     background-image: url(../images/logo-footer-rd-with-text.svg);
@@ -98,10 +95,6 @@
   }
 }
 @media (max-width: 500px) {
-  .project-description {
-    // font-size: 0.9rem;
-    height: 100px;
-  }
   .footer-center {
     max-width: 100%;
   }
@@ -126,9 +119,6 @@
   .project-tagline {
     font-size: 1.3rem;
     height: 24px;
-  }
-  .image-counter {
-    height: 50px;
   }
 }
 
@@ -159,6 +149,9 @@
   // .project-description {
   //   height: 120px;
   // }
+  .image-counter {
+    height: 50px;
+  }
   .read-about-me {
     font-size: 0.8rem;
   }

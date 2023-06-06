@@ -127,9 +127,6 @@
     font-size: 1.3rem;
     height: 24px;
   }
-  .image-counter {
-    height: 50px;
-  }
 }
 
 @media (max-width: 450px) {
@@ -159,6 +156,9 @@
   // .project-description {
   //   height: 120px;
   // }
+  .image-counter {
+    height: 50px;
+  }
   .read-about-me {
     font-size: 0.8rem;
   }

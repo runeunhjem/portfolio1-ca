@@ -100,7 +100,7 @@
 @media (max-width: 500px) {
   .project-description {
     // font-size: 0.9rem;
-    height: 100px;
+    height: 80px;
   }
   .footer-center {
     max-width: 100%;
@@ -126,9 +126,6 @@
   .project-tagline {
     font-size: 1.3rem;
     height: 24px;
-  }
-  .image-counter {
-    height: 50px;
   }
 }
 
@@ -159,6 +156,9 @@
   // .project-description {
   //   height: 120px;
   // }
+  .image-counter {
+    height: 50px;
+  }
   .read-about-me {
     font-size: 0.8rem;
   }

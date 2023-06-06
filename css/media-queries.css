@@ -1,4 +1,16 @@
+@media (max-width: 1600px) {
+  .flyin-menu {
+    right: 6vw;
+  }
+  .header, .intro, .footer-container, .projects-container {
+    max-width: 95vw;
+    justify-content: center;
+  }
+}
 @media (max-width: 1300px) {
+  .flyin-menu {
+    right: 3vw;
+  }
   .projects-carousel {
     width: 100vw;
   }
@@ -53,6 +65,9 @@
   #phone, #mail, #weblink {
     width: 100vw;
   }
+  .project-description {
+    height: 150px;
+  }
 }
 @media (max-width: 600px) {
   .project-description {
@@ -78,6 +93,9 @@
   }
 }
 @media (max-width: 500px) {
+  .project-description {
+    height: 100px;
+  }
   .footer-center {
     max-width: 100%;
   }
@@ -103,6 +121,9 @@
     font-size: 1.3rem;
     height: 24px;
   }
+  .image-counter {
+    height: 50px;
+  }
 }
 @media (max-width: 450px) {
   body {
@@ -127,12 +148,6 @@
   }
   .carousel-item {
     margin: 0.2em auto;
-  }
-  .project-description {
-    height: 100px;
-  }
-  .image-counter {
-    height: 50px;
   }
   .read-about-me {
     font-size: 0.8rem;
