@@ -232,7 +232,7 @@
     <li class="fly-in-item flex active">Home</li>
     <li class="fly-in-item flex">About</li>
     <li class="fly-in-item flex">Contact</li>
-    <li class="flex project-list-item">
+    <li class="fly-in-item flex project-list-item">
       <span class="project-toggle">Projects</span>
       <ol class="project-list flex">
         <li class="fly-in-item flex">Game Hub</li>
@@ -243,6 +243,45 @@
     <li class="fly-in-item flex">Portfolio README</li>
   </ol>
 </div>
+CSS:
+
+css
+Copy code
+.project-list {
+  display: none;
+}
+
+.project-list.show {
+  display: block;
+}
+
+.project-toggle {
+  cursor: pointer;
+  text-decoration: underline;
+}
+JavaScript:
+
+javascript
+Copy code
+document.addEventListener('DOMContentLoaded', function() {
+  const projectToggle = document.querySelector('.project-toggle');
+  const projectList = document.querySelector('.project-list');
+
+  projectToggle.addEventListener('click', function() {
+    projectList.classList.toggle('show');
+  });
+});
+In this updated code, the "Projects" text is wrapped in a <span> element with the class .project-toggle. The CSS adds an underline and a cursor style to make it look like a clickable link.
+
+The JavaScript code listens for a click event on the .project-toggle element and toggles the show class on the .project-list, which controls its visibility.
+
+Now, when you click on the "Projects" text, the project list will be shown or hidden accordingly.
+
+
+
+
+
+
 
 </body>
 </html>

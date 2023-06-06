@@ -297,6 +297,9 @@ body {
   width: 95%;
   color: var(--color-white);
   padding: 0.2em auto;
+  transition: all 0.3s ease-in-out;
+}
+.project-list {
 }
 
 .project-list {
@@ -304,7 +307,6 @@ body {
 }
 
 .project-list.show {
-  transition: all 0.3s ease-in-out;
   display: block;
   max-width: 100%;
   margin: 0.8em 0 1.6em 0;

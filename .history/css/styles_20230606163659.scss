@@ -264,7 +264,6 @@ body {
   border: none;
   cursor: pointer;
   color: var(--color-black);
-
   &:hover {
     background-color: var(--color-white);
     color: var(--color-active);
@@ -272,6 +271,9 @@ body {
 }
 .project-toggle {
   width: 100%;
+  // background-color: var(--color-bg-intro-full);
+  // box-shadow: var(--box-shadow-intro);
+  // border-radius: var(--border-radius-6px);
   padding: 0.4em 1em;
   font-size: 1.2rem;
   cursor: pointer;
@@ -298,7 +300,6 @@ body {
   color: var(--color-white);
   padding: 0.2em auto;
 }
-
 .project-list {
   display: none;
 }

@@ -264,7 +264,6 @@ body {
   border: none;
   cursor: pointer;
   color: var(--color-black);
-
   &:hover {
     background-color: var(--color-white);
     color: var(--color-active);
@@ -272,6 +271,7 @@ body {
 }
 .project-toggle {
   width: 100%;
+  transition: all 0.3s ease-in-out;
   padding: 0.4em 1em;
   font-size: 1.2rem;
   cursor: pointer;
@@ -298,13 +298,11 @@ body {
   color: var(--color-white);
   padding: 0.2em auto;
 }
-
 .project-list {
   display: none;
 }
 
 .project-list.show {
-  transition: all 0.3s ease-in-out;
   display: block;
   max-width: 100%;
   margin: 0.8em 0 1.6em 0;

@@ -222,6 +222,7 @@ body {
   animation: nudge-animation 2s infinite alternate;
 }
 
+
 @keyframes nudge-animation {
   0%, 100% {
     transform: translateX(0);
@@ -264,28 +265,10 @@ body {
   border: none;
   cursor: pointer;
   color: var(--color-black);
-
   &:hover {
     background-color: var(--color-white);
     color: var(--color-active);
   }
-}
-.project-toggle {
-  width: 100%;
-  padding: 0.4em 1em;
-  font-size: 1.2rem;
-  cursor: pointer;
-  // text-decoration: underline;
-
-}
-.project-toggle::after {
-  content: ">";
-  position: relative;
-  color: var(--color-white);
-  height: 16px;
-  width: 16px;
-  align-items: center;
-  right: -10px;
 }
 .fly-in-item:hover::after {
   content: url(../images/ico-star-three-points-outline.svg);
@@ -298,14 +281,7 @@ body {
   color: var(--color-white);
   padding: 0.2em auto;
 }
-
 .project-list {
-  display: none;
-}
-
-.project-list.show {
-  transition: all 0.3s ease-in-out;
-  display: block;
   max-width: 100%;
   margin: 0.8em 0 1.6em 0;
   font-size: 1.4rem;

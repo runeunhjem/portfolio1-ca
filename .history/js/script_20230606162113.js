@@ -46,11 +46,10 @@ flyInMenu.addEventListener("click", (event) => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const projectToggle = document.querySelector(".project-toggle");
+  const projectListItem = document.querySelector(".project-list-item");
   const projectList = document.querySelector(".project-list");
 
-  projectToggle.addEventListener("click", function () {
+  projectListItem.addEventListener("click", function () {
     projectList.classList.toggle("show");
   });
 });
-
