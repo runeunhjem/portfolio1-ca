@@ -63,15 +63,26 @@
 
 .button-project1 {
   background-color: var(--color-yellow-gamehub);
-  color: var(--color-black);
+  &:hover {
+    color: var(--color-text-dark);
+    background-color: var(--color-bg-button-hover);
+  }
 }
 .button-project2 {
   background-color: var(--color-blue-csm);
   color: var(--color-white);
+  &:hover {
+    color: var(--color-text-dark);
+    background-color: var(--color-bg-button-hover);
+  }
 }
 .button-project3 {
   color: var(--color-white);
   background-color: var(--color-burgundy-chefs-table);
+  &:hover {
+    color: var(--color-text-dark);
+    background-color: var(--color-bg-button-hover);
+  }
 }
 
 .button {
@@ -81,14 +92,17 @@
   font-family: var(--font-family-koho);
   font-weight: 600;
   font-size: 1.2rem;
+  // background-color: var(--color-yellow-gamehub);
   border-radius: var(--border-radius-6px);
   box-shadow: var(--box-shadow-buttons);
   border: none;
+  // color: var(--color-black);
   &:hover {
     cursor: pointer;
-    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.45);
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
     color: var(--color-text-dark);
     background-color: var(--color-bg-button-hover);
+    // background-color: var(--color-bg-button-hover);
   }
 }
 
@@ -114,7 +128,6 @@
   overflow: hidden;
   border-radius: var(--border-radius-12px);
   margin: 1em auto;
-  box-shadow: 4px 4px 14px 3px rgba(0, 0, 0, 0.45);
 }
 
 .carousel-images {

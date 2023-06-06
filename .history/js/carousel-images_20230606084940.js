@@ -42,7 +42,7 @@ function loadCurrentImage(container) {
   container.style.transition = "background-image 0.3s ease-in-out";
   // container.style.transition = "transform 0.3s ease-in-out";
   container.style.backgroundImage = `url(${imagePath})`;
-  // container.style.transform = "translateX(0)"; // Reset the translation
+  container.style.transform = "translateX(0)"; // Reset the translation
 }
 
 const carouselContainers = document.querySelectorAll(".carousel-images");

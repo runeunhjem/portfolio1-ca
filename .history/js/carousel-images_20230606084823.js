@@ -39,10 +39,10 @@ function loadCurrentImage(container) {
   const projectClass = projectContainer.classList.item(2);
   const position = parseInt(container.dataset.position);
   const imagePath = "images/" + imageUrls[projectClass][position];
-  container.style.transition = "background-image 0.3s ease-in-out";
-  // container.style.transition = "transform 0.3s ease-in-out";
+  // container.style.transition = "background-image 0.3s ease-in-out";
+  container.style.transition = "transform 0.3s ease-in-out";
   container.style.backgroundImage = `url(${imagePath})`;
-  // container.style.transform = "translateX(0)"; // Reset the translation
+  container.style.transform = "translateX(0)"; // Reset the translation
 }
 
 const carouselContainers = document.querySelectorAll(".carousel-images");
