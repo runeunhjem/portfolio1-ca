@@ -36,7 +36,7 @@ function createProjectContainer(projectClass, title, tagline, description, image
 
   const buttons = links.map((link) => {
     const button = document.createElement("button");
-    // button.classList.add("button");
+    button.classList.add("button");
     button.classList.add("button", `button-${projectClass}`); // Add a custom class based on projectClass
     button.textContent = link.label;
     button.addEventListener("click", () => {

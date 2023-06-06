@@ -6,7 +6,6 @@
   position: relative;
   overflow: hidden;
 }
-
 .carousel {
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -15,6 +14,7 @@
 .carousel-item {
   flex: 0 0 100%;
   max-width: 100%;
+  // box-shadow: var(--box-shadow-intro);
 }
 
 .heading {
@@ -30,12 +30,10 @@
   height: auto;
   align-items: baseline;
 }
-
 .project-title {
   font-size: 2em;
   align-items: flex-start;
 }
-
 .project-tagline {
   font-weight: 500;
   text-align: center;
@@ -50,9 +48,11 @@
   padding: 0em 1em 2em 1em;
   box-shadow: var(--box-shadow-intro);
   margin-bottom: 1em;
+  // margin-top: 0;
   height: auto;
   align-items: center;
   max-width: 100%;
+
 }
 
 .project-links {
@@ -64,32 +64,32 @@
 .button-project1 {
   background-color: var(--color-yellow-gamehub);
 }
-
 .button-project2 {
   background-color: var(--color-blue-csm);
-  color: var(--color-white);
+  color: var(--color-text-light);
 }
-
 .button-project3 {
-  color: var(--color-white);
   background-color: var(--color-burgundy-chefs-table);
 }
 
 .button {
   justify-content: center;
-  width: 180px;
-  padding: 8px 6px;
+  width: 172px;
+  padding: 5px 6px;
   font-family: var(--font-family-koho);
   font-weight: 600;
   font-size: 1.2rem;
+  // background-color: var(--color-yellow-gamehub);
   border-radius: var(--border-radius-6px);
   box-shadow: var(--box-shadow-buttons);
   border: none;
-}
-.button:hover {
-  color: var(--color-text-dark);
-  cursor: pointer;
-  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+  color: var(--color-black);
+  &:hover {
+    color: var(--color-text-dark);
+    cursor: pointer;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+    // background-color: var(--color-bg-button-hover);
+  }
 }
 
 .project-image-carousel {
@@ -98,18 +98,17 @@
   max-width: 100%;
   flex-wrap: nowrap;
 }
-
 .left-arrow, .right-arrow {
   cursor: pointer;
-}
-.left-arrow img, .right-arrow img {
-  max-width: 100%;
-  width: 100px;
-  height: auto;
+  img {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+  }
 }
 
 .images-container {
-  width: 800px;
+  width:800px;
   height: auto;
   max-height: 100%;
   overflow: hidden;
@@ -127,8 +126,10 @@
   border-radius: var(--border-radius-12px);
   width: 100%;
   height: auto;
+  // transition: transform 0.3s ease-in-out;
   transition: transform 0.5s;
   overflow: hidden; /* Add this line */
+  // display: flex;
 }
 
 .carousel-images {
@@ -157,6 +158,7 @@
     transform: translateX(-100%);
   }
 }
+
 .slide-in-left {
   animation: slide-in-left 0.5s forwards;
 }
@@ -169,17 +171,16 @@
     transform: translateX(0);
   }
 }
+
 .project1-images {
   background-image: url(../images/gamehub/gamehub-1.jpg);
-}
-
+ }
 .project2-images {
   background-image: url(../images/csm/cms-1.jpg);
-}
-
+ }
 .project3-images {
   background-image: url(../images/chefs-table/ct-1.jpg);
-}
+ }
 
 .projects-carousel-nav {
   max-width: 100%;
@@ -198,18 +199,18 @@
   padding: 6px 30px;
   align-items: center;
   position: relative;
-}
-.projects-btn:hover {
-  background-color: var(--color-text-light);
-}
-.projects-btn .star-left {
-  height: 60%;
-  transform: scaleX(-1);
-  margin-right: 0.5em;
-}
-.projects-btn .star-right {
-  height: 60%;
-  margin-left: 0.5em;
+  &:hover {
+    background-color: var(--color-text-light);
+  }
+  .star-left {
+    height: 60%;
+    transform: scaleX(-1);
+    margin-right: 0.5em;
+  }
+  .star-right {
+    height: 60%;
+    margin-left: 0.5em;
+  }
 }
 
 .projects-counter, .button-container, .image-counter {
@@ -223,7 +224,6 @@
   gap: 2em;
   margin-bottom: 0.5em;
 }
-
 .count, .image-count {
   margin: 0 0.4em;
 }
@@ -231,10 +231,9 @@
 .project-top-left, .project-top-right {
   align-items: flex-start;
 }
-
 .card-container {
   padding: 0;
   gap: 2em;
   background-color: transparent;
   box-shadow: none;
-}/*# sourceMappingURL=carousel.css.map */
+}
