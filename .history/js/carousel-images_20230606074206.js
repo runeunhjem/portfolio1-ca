@@ -54,9 +54,8 @@ const leftArrows = document.querySelectorAll(".left-arrow");
 const rightArrows = document.querySelectorAll(".right-arrow");
 
 function updateImageCounter(currentPosition, maxPosition, projectClass) {
-  const counter = document.querySelector(".image-count");
-  counter.innerText = `${currentPosition + 1}/${maxPosition + 1}`;
-  console.log("counter: ", counter);
+  const counter = document.querySelector(".image-counter .image-count");
+  counter.textContent = `${currentPosition + 1}/${maxPosition + 1}`;
   // counter.textContent = `${currentPosition + 1}/${imageUrls[projectClass].length}`;
   // counter.textContent = `${currentPosition + 1}/${maxPosition + 1}`;
 }
@@ -79,20 +78,13 @@ function handleArrowClick(event) {
     newPosition = (currentPosition + 1) % imageUrls[projectClass].length;
   }
 
-  console.log("currentPosition: ", currentPosition);
-  console.log("projectClass: ", projectClass);
-  console.log("maxPosition: ", maxPosition);
-  console.log("slideDirection: ", slideDirection);
-  console.log("newPosition: ", newPosition);
+  
+  // Call loadCurrentImage
+  loadCurrentImage(carouselContainer);
 
   carouselContainer.dataset.position = newPosition;
-  loadCurrentImage(carouselContainer); // Move this line here
-
-  console.log("new position after loadCurrentImage: ", carouselContainer.dataset.position);
-
-  updateImageCounter(newPosition, maxPosition, projectClass);
+  updateImageCounter(currentPosition, maxPosition, projectClass);
 }
-
 
 leftArrows.forEach((arrow) => {
   arrow.addEventListener("click", handleArrowClick);

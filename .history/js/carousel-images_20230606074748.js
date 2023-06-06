@@ -54,8 +54,8 @@ const leftArrows = document.querySelectorAll(".left-arrow");
 const rightArrows = document.querySelectorAll(".right-arrow");
 
 function updateImageCounter(currentPosition, maxPosition, projectClass) {
-  const counter = document.querySelector(".image-count");
-  counter.innerText = `${currentPosition + 1}/${maxPosition + 1}`;
+  const counter = document.querySelector(".image-counter .image-count");
+  counter.textContent = `${currentPosition + 1}/${maxPosition + 1}`;
   console.log("counter: ", counter);
   // counter.textContent = `${currentPosition + 1}/${imageUrls[projectClass].length}`;
   // counter.textContent = `${currentPosition + 1}/${maxPosition + 1}`;
