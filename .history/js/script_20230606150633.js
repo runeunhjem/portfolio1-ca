@@ -26,7 +26,7 @@ hamburger.addEventListener("click", () => {
   if (menuIsOpen) {
     flyInMenu.style.top = "-150%"; // Close the menu
   } else {
-    flyInMenu.style.top = "5em"; // Open the menu
+    flyInMenu.style.top = "4.59em"; // Open the menu
   }
 });
 

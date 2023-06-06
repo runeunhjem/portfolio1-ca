@@ -5,13 +5,14 @@
 }
 @media (max-width: 1600px) {
   .fly-in-menu {
-    right: 4.5vw;
+    right: 6vw;
   }
-  .header, .intro, .footer-container, .projects-container {
+ .header, .intro, .footer-container, .projects-container {
     max-width: 95vw;
     justify-content: center;
   }
 }
+
 @media (max-width: 1300px) {
   .fly-in-menu {
     right: 3vw;
@@ -31,6 +32,7 @@
     height: 280px;
   }
 }
+
 @media (max-width: 1080px) {
   .tablet-wide {
     display: none;
@@ -44,11 +46,12 @@
     align-items: center;
     gap: 1.5em;
     width: 100vw;
-  }
-  #footer-container .footer-logo {
-    height: 100px;
+    .footer-logo {
+      height: 100px;
+    }
   }
 }
+
 @media (max-width: 768px) {
   .tablet {
     display: none;
@@ -70,10 +73,12 @@
   #phone, #mail, #weblink {
     width: 100vw;
   }
+
   .project-description {
     height: 150px;
   }
 }
+
 @media (max-width: 600px) {
   .project-description {
     font-size: 0.9rem;
@@ -99,6 +104,7 @@
 }
 @media (max-width: 500px) {
   .project-description {
+    // font-size: 0.9rem;
     height: 100px;
   }
   .footer-center {
@@ -120,8 +126,8 @@
     font-size: 2.35rem;
   }
   .project-title {
-    font-size: 2rem;
-  }
+  font-size: 2rem;
+}
   .project-tagline {
     font-size: 1.3rem;
     height: 24px;
@@ -130,6 +136,7 @@
     height: 50px;
   }
 }
+
 @media (max-width: 450px) {
   body {
     overflow-x: hidden;
@@ -154,6 +161,7 @@
   .carousel-item {
     margin: 0.2em auto;
   }
+
   .read-about-me {
     font-size: 0.8rem;
   }
@@ -165,6 +173,7 @@
     justify-content: center;
   }
 }
+
 @media (max-width: 400px) {
   .header {
     height: 120px;
@@ -176,6 +185,7 @@
     font-size: 0.65rem;
   }
 }
+
 @media (max-width: 360px) {
   .header {
     height: 100px;
@@ -186,4 +196,4 @@
   .intro {
     height: 200px;
   }
-}/*# sourceMappingURL=media-queries.css.map */
+}
