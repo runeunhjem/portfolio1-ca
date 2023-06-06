@@ -43,8 +43,10 @@
 }
 
 .project-description {
+  display: flex;
   max-width: 800px;
   margin-bottom: 1em;
+  align-items: flex-start;
 }
 
 .project-container {

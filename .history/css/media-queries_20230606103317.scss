@@ -14,6 +14,7 @@
     height: 280px;
   }
 }
+
 @media (max-width: 1080px) {
   .tablet-wide {
     display: none;
@@ -27,11 +28,12 @@
     align-items: center;
     gap: 1.5em;
     width: 100vw;
-  }
-  #footer-container .footer-logo {
-    height: 100px;
+    .footer-logo {
+      height: 100px;
+    }
   }
 }
+
 @media (max-width: 768px) {
   .tablet {
     display: none;
@@ -53,7 +55,9 @@
   #phone, #mail, #weblink {
     width: 100vw;
   }
+
 }
+
 @media (max-width: 600px) {
   .project-description {
     font-size: 0.9rem;
@@ -97,13 +101,14 @@
     font-size: 2.35rem;
   }
   .project-title {
-    font-size: 2rem;
-  }
+  font-size: 2rem;
+}
   .project-tagline {
     font-size: 1.3rem;
     height: 24px;
   }
 }
+
 @media (max-width: 450px) {
   .button-container {
     gap: 0.5em;
@@ -123,7 +128,7 @@
     font-size: 0.9rem;
   }
   .carousel-item {
-    margin: 0.2em auto;
+    margin: -1.1em auto;
   }
   .project-description {
     height: 100px;
@@ -142,6 +147,7 @@
     justify-content: center;
   }
 }
+
 @media (max-width: 400px) {
   .header {
     height: 120px;
@@ -153,6 +159,7 @@
     font-size: 0.65rem;
   }
 }
+
 @media (max-width: 360px) {
   .header {
     height: 100px;
@@ -163,4 +170,4 @@
   .intro {
     height: 200px;
   }
-}/*# sourceMappingURL=media-queries.css.map */
+}
