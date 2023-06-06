@@ -1,9 +1,11 @@
 @media (max-width: 1300px) {
   .projects-carousel {
+    margin-bottom: 2em;
     width: 100vw;
+    max-width: 100%;
   }
-  .project-container, .projects-carousel {
-    margin-bottom: 0.2em;
+  .project-container {
+    margin-bottom: 2em;
     max-width: 100%;
   }
 }
@@ -14,6 +16,7 @@
     height: 280px;
   }
 }
+
 @media (max-width: 1080px) {
   .tablet-wide {
     display: none;
@@ -27,11 +30,12 @@
     align-items: center;
     gap: 1.5em;
     width: 100vw;
-  }
-  #footer-container .footer-logo {
-    height: 100px;
+    .footer-logo {
+      height: 100px;
+    }
   }
 }
+
 @media (max-width: 768px) {
   .tablet {
     display: none;
@@ -53,10 +57,17 @@
   #phone, #mail, #weblink {
     width: 100vw;
   }
+  .project-container, .projects-carousel {
+    margin-bottom: 0.3em;
+  }
 }
+
 @media (max-width: 600px) {
   .project-description {
     font-size: 0.9rem;
+  }
+  .project-container, .projects-carousel {
+    margin-bottom: 0em;
   }
   .header-left {
     background-image: url(../images/logo-footer-rd-with-text.svg);
@@ -96,12 +107,13 @@
     font-size: 2.35rem;
   }
   .project-title {
-    font-size: 2rem;
-  }
-  .project-tagline {
-    font-size: 1.2rem;
-  }
+  font-size: 2rem;
 }
+.project-tagline {
+  font-size: 1.2rem;
+}
+}
+
 @media (max-width: 450px) {
   .button-container {
     gap: 0.5em;
@@ -120,6 +132,10 @@
     padding-left: 12px;
     font-size: 0.9rem;
   }
+  .carousel-item {
+    margin: -1-1em auto;
+  }
+
   .read-about-me {
     font-size: 0.8rem;
   }
@@ -131,6 +147,7 @@
     justify-content: center;
   }
 }
+
 @media (max-width: 400px) {
   .header {
     height: 120px;
@@ -142,6 +159,7 @@
     font-size: 0.65rem;
   }
 }
+
 @media (max-width: 360px) {
   .header {
     height: 100px;
@@ -152,4 +170,4 @@
   .intro {
     height: 200px;
   }
-}/*# sourceMappingURL=media-queries.css.map */
+}
