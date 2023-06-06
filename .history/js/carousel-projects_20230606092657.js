@@ -116,7 +116,7 @@ const project3Container = createProjectContainer(
     "chefs-table/ct-8.jpg",
   ],
   [
-    { label: "Visit Chef's Table", url: "https://ru-project-exam-1.netlify.app" },
+    { label: "Visit Chef", url: "https://ru-project-exam-1.netlify.app" },
     { label: "GitHub Repository", url: "https://github.com/runeunhjem/07-ru-project-exam-1-chefs-table" },
     { label: "Project README", url: "https://github.com/runeunhjem/07-ru-project-exam-1-chefs-table/blob/main/README.md" },
   ]

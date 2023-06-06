@@ -34,6 +34,7 @@
 .project-title {
   font-size: 2em;
   align-items: flex-start;
+  margin-top: 0.5em;
 }
 
 .project-tagline {
@@ -50,6 +51,7 @@
   padding: 0em 1em 2em 1em;
   box-shadow: var(--box-shadow-intro);
   margin-bottom: 1em;
+  margin: 0.2em auto;
   height: auto;
   align-items: center;
   max-width: 100%;
