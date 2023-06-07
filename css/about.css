@@ -4,6 +4,8 @@
 }
 
 .about-me-header {
+  justify-content: center;
+  text-align: center;
   margin: 1em 0 0 0;
   max-width: 100%;
   font-size: 4.5rem;
@@ -12,9 +14,30 @@
   color: var(--color-text-dark);
 }
 
+.about-shortcuts {
+  gap: 0.5em;
+  max-width: 100%;
+  justify-content: center;
+}
+.about-shortcuts a {
+  padding: 3px 10px;
+  justify-content: center;
+  border-radius: var(--border-radius-12px);
+  transition: all 0.1s ease-in-out;
+}
+.about-shortcuts a:hover {
+  cursor: pointer;
+  color: var(--color-active);
+  box-shadow: var(--box-shadow-buttons-hover);
+}
+
 .about-li {
   max-width: 100%;
   margin-left: 2.5em;
+}
+.about-li a:hover {
+  color: var(--color-active);
+  font-weight: 500;
 }
 
 .skill-icons {
@@ -62,7 +85,7 @@
 .profile-picture:hover {
   box-shadow: var(--box-shadow-buttons-hover);
   background-color: var(--color-white);
-  transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale(1.1);
 }
 
 .card-header {

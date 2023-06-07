@@ -99,6 +99,9 @@
     padding-left: 15px;
     font-size: 1.2rem;
   }
+  .about-me-header {
+    font-size: 3.5rem;
+  }
 }
 @media (max-width: 500px) {
   .project-description {
@@ -177,6 +180,9 @@
   }
   .read-about-me {
     font-size: 0.65rem;
+  }
+  .about-me-header {
+    font-size: 2rem;
   }
 }
 @media (max-width: 360px) {

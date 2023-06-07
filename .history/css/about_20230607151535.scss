@@ -1,0 +1,96 @@
+.about, .history, .goals, .skills, .follow {
+  height: auto;
+  width: 100%;
+}
+.about-me-header {
+  justify-content: center;
+  text-align: center;
+  margin: 1em 0 0 0;
+  max-width: 100%;
+  font-size: 4.5rem;
+  font-style: italic;
+  font-family: var(--font-family-koho);
+  color: var(--color-text-dark);
+}
+.about-shortcuts {
+  transition: all 0.3s ease-in-out;
+  gap: 0.5em;
+  max-width: 100%;
+  justify-content: center;
+
+  a {
+    &:hover {
+      cursor: pointer;
+      color: var(--color-active);
+      font-weight: 600;
+    }
+  }
+}
+
+.about-li {
+  max-width: 100%;
+  margin-left: 2.5em;
+  a:hover {
+    color: var(--color-active);
+    font-weight: 500;
+  }
+}
+.skill-icons {
+  gap: 1em;
+  margin: 1em 0 0 2.5em;
+  img {
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.5);
+      color: var(--color-black);
+      font-size: 1.95rem;
+    }
+  }
+}
+.about-me-card {
+  max-width: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.profile-pic {
+  align-items: center;
+  border-radius: 50%;
+  margin: 0.2em;
+  min-width: 20%;
+}
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+  box-shadow: var(--box-shadow-buttons);
+  &:hover {
+    box-shadow: var(--box-shadow-buttons-hover);
+    background-color: var(--color-white);
+    transform: scale(1.1);
+  }
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.card-header {
+  justify-content: center;
+  margin: 0 0 0.4em 0;
+  padding: 0.3em 0;
+  border-bottom: 2px solid var(--color-text-dark);
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.about-right {
+  width: 80%;
+  padding: 0;
+  font-size: 2.2rem;
+}
