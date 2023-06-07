@@ -167,6 +167,7 @@
   padding: 6px 30px;
   align-items: center;
   position: relative;
+  border-radius: var(--border-radius-6px);
 }
 .projects-btn:hover {
   background-color: var(--color-bg-active);
