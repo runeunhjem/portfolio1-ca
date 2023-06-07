@@ -108,6 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
 const anchorLinks = document.querySelectorAll('a[href^="#"]');
 anchorLinks.forEach((link) => {
   link.addEventListener('click', (e) => {
