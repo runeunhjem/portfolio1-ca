@@ -13,8 +13,26 @@
 }
 
 .about-li {
-  max-width: 90%;
+  max-width: 100%;
   margin-left: 2.5em;
+}
+
+.skill-icons {
+  gap: 1em;
+  margin: 1em 0 0 2.5em;
+}
+.skill-icons img {
+  height: 48px;
+  width: 48px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.1s ease-in-out;
+}
+.skill-icons img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  color: var(--color-black);
+  font-size: 1.95rem;
 }
 
 .about-me-card {
@@ -31,6 +49,7 @@
 }
 
 .profile-picture {
+  display: flex;
   justify-content: center;
   align-items: center;
   -o-object-fit: contain;
