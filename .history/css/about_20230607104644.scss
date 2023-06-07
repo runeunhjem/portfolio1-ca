@@ -1,0 +1,42 @@
+.about {
+  height: auto;
+}
+
+.about-me-card {
+  max-width: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.profile-pic {
+  align-items: center;
+  border-radius: 50%;
+  margin: 1em;
+  width: 27%;
+}
+.profile-picture {
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  box-shadow: var(--box-shadow-buttons);
+  &:hover {
+    box-shadow: var(--box-shadow-buttons-hover);
+    background-color: var(--color-white);
+  }
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.card-header {
+  justify-content: center;
+  margin: 0 0 0.4em 0;
+  padding: 0.3em 2em;
+  border-bottom: 2px solid var(--color-text-dark);
+  // box-shadow: 1px 1px 12px 0px var(--color-black);
+  width: 100%;
+  text-align: center;
+}
+
+.intro-right {
+  width: 70%;
+  padding: 0;
+  font-size: 1.2rem;
+}

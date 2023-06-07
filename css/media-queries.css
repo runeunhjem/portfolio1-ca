@@ -73,6 +73,9 @@
   .project-description {
     height: 150px;
   }
+  .profile-pic {
+    width: 40%;
+  }
 }
 @media (max-width: 600px) {
   .project-description {

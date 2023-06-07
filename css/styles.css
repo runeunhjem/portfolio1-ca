@@ -13,7 +13,7 @@
   --color-icons: #7B7070;
   --color-active: #FF0000;
   --color-text-dark: #615a5a;
-  --color-text-light: #FFFFFF;
+  --color-text-light: #aaaaaa;
   --color-bg-body: rgb(250, 238, 227);
   --color-bg-intro: rgba(185, 185, 185, 0.19);
   --color-bg-intro-full: rgb(250, 238, 227);
@@ -164,7 +164,7 @@ body {
   font-size: 1.95rem;
 }
 
-.intro, .footer-container, .project-container {
+.intro, .footer-container, .project-container, .about {
   width: 100%;
   max-width: 1600px;
   height: 270px;
@@ -315,11 +315,11 @@ body {
   font-size: 1.4rem;
 }
 
-.weblink {
+.weblink, .phone, .mail {
   transition: all 0.3s ease-in-out;
   width: 320px;
 }
-.weblink:hover {
+.weblink:hover, .phone:hover, .mail:hover {
   box-shadow: var(--box-shadow-buttons);
   border-radius: var(--border-radius-12px);
   color: var(--color-red);
