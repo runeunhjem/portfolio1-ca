@@ -169,7 +169,7 @@
   position: relative;
 }
 .projects-btn:hover {
-  background-color: var(--color-text-light);
+  background-color: var(--color-bg-active);
 }
 .projects-btn .star-left {
   height: 60%;

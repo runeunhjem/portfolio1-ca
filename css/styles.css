@@ -17,9 +17,9 @@
   --color-text-light: #aaaaaa;
   --color-bg-body: rgb(250, 238, 227);
   --color-bg-intro: rgba(185, 185, 185, 0.19);
-  --color-bg-intro-full: rgb(250, 238, 227);
+  --color-bg-intro-full: rgb(245, 238, 232);
   --color-bg-card-cms: #F8EEC9;
-  --color-bg-card-chefstable: #F8EEC9;
+  --color-bg-active: #ffbcbc;
   --color-bg-button-hover: rgb(250, 220, 220);
   --color-red: #FF0000;
   --color-white: #FFFFFF;
@@ -263,10 +263,10 @@ body {
   padding: 0.4em 1em;
   font-size: 1.2rem;
   background-color: var(--color-bg-intro-full);
+  color: var(--color-black);
   box-shadow: var(--box-shadow-buttons);
   border: none;
   cursor: pointer;
-  color: var(--color-black);
   max-height: 36px;
   transition: all 0.3s ease-in-out;
 }
@@ -331,7 +331,11 @@ body {
 }
 
 .active {
-  color: var(--color-active);
+  transition: all 0.1s ease-in-out;
+  color: var(--color-black);
+  font-weight: 600;
+  font-style: italic;
+  background-color: var(--color-bg-active);
 }
 .active:hover {
   color: var(--color-text-dark);
