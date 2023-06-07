@@ -53,8 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   projectToggle.addEventListener("click", function () {
     projectList.classList.toggle("show");
+    otherProjectList.classList.toggle("show");
   });
-  otherProjectToggle.addEventListener("click", function () {
+  projectToggle.addEventListener("click", function () {
+    projectList.classList.toggle("show");
     otherProjectList.classList.toggle("show");
   });
 });

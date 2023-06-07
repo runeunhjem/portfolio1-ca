@@ -293,21 +293,21 @@ body {
   align-items: center;
   right: -10px;
 }
-.menu-list, .project-list, .other-project-list {
+.menu-list, .project-list {
   width: 95%;
   color: var(--color-white);
   padding: 0.2em auto;
 }
 
-.project-list, .other-project-list {
+.project-list {
   display: none;
 }
 
-.project-list.show, .other-project-list.show {
+.project-list.show {
   transition: all 0.3s ease-in-out;
   display: block;
   max-width: 100%;
-  margin: 0.2em 0 0.6em 0;
+  margin: 0.8em 0 1.6em 0;
   font-size: 1.4rem;
 }
 

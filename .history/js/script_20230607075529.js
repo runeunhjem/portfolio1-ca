@@ -37,25 +37,20 @@ document.addEventListener("click", (event) => {
   }
 });
 
-flyInMenu.addEventListener("click", (event) => {
-  if (event.target.classList.contains("fly-in-item")) {
-    const menuItemText = event.target.textContent;
-    console.log(`Clicked menu item: ${menuItemText}`);
-    flyInMenu.style.top = "-150%";
-  }
-});
+// flyInMenu.addEventListener("click", (event) => {
+//   if (event.target.classList.contains("fly-in-item")) {
+//     const menuItemText = event.target.textContent;
+//     console.log(`Clicked menu item: ${menuItemText}`);
+//     flyInMenu.style.top = "-150%";
+//   }
+// });
 
 document.addEventListener("DOMContentLoaded", function () {
   const projectToggle = document.querySelector(".project-toggle");
-  const otherProjectToggle = document.querySelector(".other-project-toggle");
   const projectList = document.querySelector(".project-list");
-  const otherProjectList = document.querySelector(".other-project-list");
 
   projectToggle.addEventListener("click", function () {
     projectList.classList.toggle("show");
-  });
-  otherProjectToggle.addEventListener("click", function () {
-    otherProjectList.classList.toggle("show");
   });
 });
 
