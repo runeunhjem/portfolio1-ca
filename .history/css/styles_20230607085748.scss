@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;0,500;0,700;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+
 :root {
   --border-radius-6px: 6px;
   --border-radius-12px: 12px;
@@ -9,26 +10,32 @@
   --box-shadow-intro: 4px 4px 16px 5px rgba(0, 0, 0, 0.25);
   --box-shadow-menu: 2px 1px 3px 2px rgba(0, 0, 0, 0.25);
   --box-shadow-menu-hover: inset -1px -1px 2px 2px rgba(0, 0, 0, 0.25);
+
   --color-logo-dark: #7B7070;
   --color-icons: #7B7070;
   --color-active: #FF0000;
   --color-text-dark: #615a5a;
+  // --color-text-dark: #7B7070;
   --color-text-light: #FFFFFF;
-  --color-bg-body: rgb(250, 238, 227);
+
+    --color-bg-body: rgb(250, 238, 227);
   --color-bg-intro: rgba(185, 185, 185, 0.19);
   --color-bg-intro-full: rgb(250, 238, 227);
   --color-bg-card-cms: #F8EEC9;
   --color-bg-card-chefstable: #F8EEC9;
   --color-bg-button-hover: rgb(250, 220, 220);
+
   --color-red: #FF0000;
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-dark-beige: #554d4d;
+  // --color-dark-beige: rgb(123, 112, 112);
   --color-yellow-gamehub: #F5C618;
   --color-burgundy-chefs-table: #5e0a24;
   --color-blue-csm: #0052bd;
-  --font-family-koho: "KoHo", sans-serif;
-  --font-family-inter: "Inter", sans-serif;
+
+  --font-family-koho: 'KoHo', sans-serif;
+  --font-family-inter: 'Inter', sans-serif;
 }
 
 * {
@@ -36,23 +43,19 @@
   margin: 0;
   padding: 0;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
-
 button {
   background-color: var(--color-white);
 }
-
 .out-of-view {
   position: absolute;
   top: -9999px;
   left: -9999px;
   color: #000000;
 }
-
 .link-reset {
   text-decoration: none;
   color: inherit;
@@ -91,11 +94,12 @@ body {
   width: 100%;
   height: 150px;
   position: relative;
-}
+  }
 
-.header-left {
+ .header-left {
   width: 40%;
   height: 100%;
+  // max-width: 50%;
   background-image: url(../images/logo-header-full.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -150,18 +154,19 @@ body {
   font-family: var(--font-family-koho);
   font-weight: 500;
   background-color: var(--color-bg-intro);
+  // background-color: var(--color-white);
   color: var(--color-text-dark);
   box-shadow: var(--box-shadow-buttons);
   border-radius: var(--border-radius-6px);
   border: none;
   font-size: 2rem;
-}
-.nav-button:hover {
-  cursor: pointer;
-  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
-  color: var(--color-black);
-  background-color: var(--color-white);
-  font-size: 1.95rem;
+  &:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    color: var(--color-black);
+    background-color: var(--color-white);
+    font-size: 1.95rem;
+  }
 }
 
 .intro, .footer-container, .project-container {
@@ -177,11 +182,9 @@ body {
   font-size: 1.5rem;
   box-shadow: var(--box-shadow-intro);
 }
-
 .intro {
   line-height: 1.5;
 }
-
 .intro-left {
   height: 100%;
   width: 15%;
@@ -197,10 +200,10 @@ body {
   height: 100%;
   width: 80%;
   align-items: flex-start;
-}
-.intro-right p {
-  width: 100%;
-  margin-left: 0.5em;
+  p {
+    width: 100%;
+    margin-left: 0.5em;
+  }
 }
 
 .read-about-me {
@@ -210,7 +213,7 @@ body {
   align-items: center;
   font-weight: 600;
   width: 100%;
-  margin: 0.5em 0 0 0.5em;
+  margin: 0.5em 0 0 0.5em;;
 }
 
 .arrow-big {
@@ -229,6 +232,7 @@ body {
     transform: translateX(10px);
   }
 }
+
 .fly-in-menu {
   display: flex;
   position: fixed;
@@ -264,20 +268,20 @@ body {
   color: var(--color-black);
   max-height: 36px;
   transition: all 0.3s ease-in-out;
-}
-.fly-in-item:hover {
-  background-color: var(--color-white);
-  box-shadow: var(--box-shadow-buttons-hover);
-  color: var(--color-active);
-}
+  &:hover {
+    
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow-buttons-hover);
 
+    color: var(--color-active);
+  }
+}
 .project-toggle, .other-project-toggle {
   width: 100%;
   padding: 0.4em 1em;
   font-size: 1.2rem;
   cursor: pointer;
 }
-
 .project-toggle::after, .other-project-toggle::after {
   content: ">";
   position: relative;
@@ -287,14 +291,12 @@ body {
   align-items: center;
   right: -10px;
 }
-
 .fly-in-item:hover::after {
   content: url(../images/ico-star-three-points-outline.svg);
   position: relative;
   align-items: center;
   right: -10px;
 }
-
 .menu-list, .project-list, .other-project-list {
   width: 95%;
   color: var(--color-white);
@@ -313,23 +315,27 @@ body {
   max-width: 100%;
   margin: 0em auto;
   font-size: 1.4rem;
+  // max-height: 200px; /* Adjust the max-height as needed */
+  // padding: 10px 0;
 }
 
 .weblink {
   transition: all 0.3s ease-in-out;
   width: 320px;
-}
-.weblink:hover {
-  box-shadow: var(--box-shadow-buttons);
-  border-radius: var(--border-radius-12px);
-  color: var(--color-red);
+  &:hover {
+      box-shadow: var(--box-shadow-buttons);
+      border-radius: var(--border-radius-12px);
+      color: var(--color-red);
+    }
 }
 
 .active {
   color: var(--color-active);
+  &:hover {
+    color: var(--color-text-dark);
+    background-color: var(--color-white);
+    cursor: default;
+  }
 }
-.active:hover {
-  color: var(--color-text-dark);
-  background-color: var(--color-white);
-  cursor: default;
-}/*# sourceMappingURL=styles.css.map */
+
+
