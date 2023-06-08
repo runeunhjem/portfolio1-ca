@@ -159,14 +159,14 @@ body {
   box-shadow: var(--box-shadow-buttons);
   border-radius: var(--border-radius-6px);
   border: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .nav-button:hover, .contact-button:hover {
   cursor: pointer;
   box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
   color: var(--color-black);
   background-color: var(--color-white);
-  font-size: 1.95rem;
+  font-size: 1.47rem;
 }
 
 .intro, .footer-container, .project-container, .about {
