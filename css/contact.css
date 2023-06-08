@@ -56,15 +56,15 @@
 
 #contact-form label {
   font-family: var(--font-family-koho);
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
   width: 100%;
 }
 
 .success {
   text-align: center;
-  color: #058d39;
-  font-size: 1.2rem;
+  color: var(--color-text-green);
+  font-size: 1.1rem;
   font-weight: 600;
   font-family: var(--font-family-koho);
   margin: 0.5em auto;
@@ -125,15 +125,15 @@
 #email-after.validated,
 #subject-after.validated,
 #message-after.validated {
-  color: #058d39;
+  color: var(--color-text-green);
 }
 
 #your-name.input-validated,
 #your-email.input-validated,
 #your-subject.input-validated,
 #your-message.input-validated {
-  color: #058d39;
-  border: 2px solid #53bb4c;
+  color: var(--color-text-green);
+  border: 2px solid var(--color-text-green);
 }
 
 #name-after {
