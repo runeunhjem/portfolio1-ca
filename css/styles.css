@@ -43,6 +43,17 @@ html {
   scroll-behavior: smooth;
 }
 
+.feedback {
+  margin: 2em auto;
+  gap: 1em;
+  width: 90vw;
+}
+.feedback img {
+  width: 90vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 a {
   text-decoration: none;
   color: inherit;
