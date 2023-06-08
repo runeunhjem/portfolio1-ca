@@ -17,7 +17,7 @@ function validateContactForm() {
   let formSubmitted = false;
 
   contactName.addEventListener("focus", function () {
-    contactName.placeholder = "Min 2 characters";
+    contactName.placeholder = "Name or Nickname";
   });
   contactName.addEventListener("blur", function () {
     contactName.placeholder = "Name or Nickname";
@@ -35,7 +35,7 @@ function validateContactForm() {
     contactSubject.placeholder = "Subject?";
   });
   contactContent.addEventListener("focus", function () {
-    contactContent.placeholder = "Min 4 characters";
+    contactContent.placeholder = "Min 25 characters";
   });
   contactContent.addEventListener("blur", function () {
     contactContent.placeholder = "Your Message";
@@ -44,7 +44,7 @@ function validateContactForm() {
   function validateForm(event) {
     event.preventDefault();
 
-    if (checkLength(contactName.value, 1)) {
+    if (checkLength(contactName.value, 4)) {
       contactName.classList.add("input-validated");
       nameAfter.classList.add("show-checkmark");
       nameAfter.classList.add("validated");
@@ -65,7 +65,7 @@ function validateContactForm() {
       emailAfter.classList.remove("show-checkmark");
       emailAfter.classList.remove("validated");
     }
-    if (checkLength(contactSubject.value, 2)) {
+    if (checkLength(contactSubject.value, 14)) {
       contactSubject.classList.add("input-validated");
       subjectAfter.classList.add("show-checkmark");
       subjectAfter.classList.add("validated");
@@ -75,7 +75,7 @@ function validateContactForm() {
       subjectAfter.classList.remove("show-checkmark");
       subjectAfter.classList.remove("validated");
     }
-    if (checkLength(contactContent.value, 3)) {
+    if (checkLength(contactContent.value, 24)) {
       contactContent.classList.add("input-validated");
       messageAfter.classList.add("show-checkmark");
       messageAfter.classList.add("validated");
@@ -86,10 +86,10 @@ function validateContactForm() {
       messageAfter.classList.remove("validated");
     }
     if (
-      checkLength(contactName.value, 1) &&
+      checkLength(contactName.value, 4) &&
       validateEmail(contactEmail.value) &&
-      checkLength(contactSubject.value, 2) &&
-      checkLength(contactContent.value, 3)
+      checkLength(contactSubject.value, 14) &&
+      checkLength(contactContent.value, 24)
     ) {
       sendMessageButton.setAttribute("type", "submit");
       sendMessageButton.style.cursor = "pointer";

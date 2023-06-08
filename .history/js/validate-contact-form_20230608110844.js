@@ -88,8 +88,8 @@ function validateContactForm() {
     if (
       checkLength(contactName.value, 1) &&
       validateEmail(contactEmail.value) &&
-      checkLength(contactSubject.value, 2) &&
-      checkLength(contactContent.value, 3)
+      checkLength(contactSubject.value, 3) &&
+      checkLength(contactContent.value, 4)
     ) {
       sendMessageButton.setAttribute("type", "submit");
       sendMessageButton.style.cursor = "pointer";
