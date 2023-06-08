@@ -1,9 +1,8 @@
-.contact-section {
+.contact-section{
   width: 99vw;
   margin-top: 2em;
   max-width: 95%;
 }
-
 .contact-header {
   text-align: center;
   font-size: 2rem;
@@ -11,7 +10,6 @@
   color: var(--color-text-dark);
   margin-bottom: 1em;
 }
-
 .contact, input {
   align-items: center;
   width: 300px;
@@ -23,7 +21,6 @@
   font-family: var(--font-family-koho);
   box-shadow: var(--box-shadow-intro);
 }
-
 .information {
   margin: 2em 0 3em 0;
   padding: 1em;
@@ -31,6 +28,7 @@
   background-color: var(--color-bg-intro);
   max-width: 600px;
   text-align: center;
+  // color: #a3ffaa;
 }
 
 .contact-fieldset {
@@ -40,7 +38,6 @@
   padding: 1em;
   border: none;
 }
-
 .contact-legend {
   text-align: center;
   padding: 0 1em;
@@ -49,7 +46,6 @@
   font-family: var(--font-family-koho);
   font-weight: 600;
 }
-
 .contact-form {
   width: 100%;
 }
@@ -65,9 +61,7 @@
   text-align: center;
   color: #058d39;
   font-size: 1.2rem;
-  font-weight: 600;
   font-family: var(--font-family-koho);
-  margin: 0.5em auto;
 }
 
 .contact-form input,
@@ -83,19 +77,19 @@
   border: 1px solid var(--color-bg-active);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
-
 .contact-form input:hover,
 .contact-form textarea:hover {
   box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+  // box-shadow: inset 1px 1px 1px 2px var(--color-bg-active);
 }
-
 .contact-form textarea {
   height: 109px;
   margin-bottom: 1em;
 }
-
 .contact-form .error-message {
   display: none;
+  // color: var(--color-red);
+  // font-family: var(--font-family-normal);
   font-weight: bold;
   font-size: 0.8rem;
   margin-top: 0.5rem;
@@ -126,6 +120,8 @@
 #subject-after.validated,
 #message-after.validated {
   color: #058d39;
+  // font-size: 1.2rem;
+  // font-weight: 600;
 }
 
 #your-name.input-validated,
@@ -138,4 +134,4 @@
 
 #name-after {
   color: #0d4b09;
-}/*# sourceMappingURL=contact.css.map */
+}
