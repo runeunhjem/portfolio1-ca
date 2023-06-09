@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const touchDiff = touchStartX - touchEndX;
     if (touchDiff > 50) {
       goToNextSlide();
-    } else if (touchDiff < -50) {
+    } else if (touchDiff < 0) {
       goToPrevSlide();
     }
   }
