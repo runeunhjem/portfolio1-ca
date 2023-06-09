@@ -121,7 +121,7 @@
 #subject-after.show-checkmark::after,
 #message-after.show-checkmark::after {
   content: url(../images/ico-checkmark-green.svg);
-  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.85)); /* Apply the shadow using the filter property */
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.85));
   padding-left: 1em;
 }
 
