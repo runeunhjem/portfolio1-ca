@@ -1,0 +1,51 @@
+.about {
+  height: auto;
+}
+
+.about-li {
+  max-width: 90%;
+  margin-left: 2.5em;
+}
+
+.about-me-card {
+  max-width: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.profile-pic {
+  align-items: center;
+  border-radius: 50%;
+  margin: 0.2em;
+  width: 20%;
+}
+
+.profile-picture {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  box-shadow: var(--box-shadow-buttons);
+  max-width: 100%;
+  border-radius: 50%;
+}
+.profile-picture:hover {
+  box-shadow: var(--box-shadow-buttons-hover);
+  background-color: var(--color-white);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.card-header {
+  justify-content: center;
+  margin: 0 0 0.4em 0;
+  padding: 0.3em 0;
+  border-bottom: 2px solid var(--color-text-dark);
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.about-right {
+  width: 80%;
+  padding: 0;
+  font-size: 2.2rem;
+}/*# sourceMappingURL=about_20230607113353.css.map */

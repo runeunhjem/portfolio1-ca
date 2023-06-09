@@ -1,0 +1,39 @@
+.fancy-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.fancy-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fancy-menu li {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: menu-item-anim 0.3s ease-in-out forwards;
+}
+
+.fancy-menu.open {
+  display: flex;
+}
+
+@keyframes menu-item-anim {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=burger-menu_20230606112850.css.map */

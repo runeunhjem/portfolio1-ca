@@ -1,0 +1,106 @@
+.about, .history, .goals, .skills, .follow {
+  height: auto;
+  width: 100%;
+}
+
+.about-me-header {
+  justify-content: center;
+  text-align: center;
+  margin: 1em 0 0 0;
+  max-width: 100%;
+  font-size: 4.5rem;
+  font-style: italic;
+  font-family: var(--font-family-koho);
+  color: var(--color-text-dark);
+}
+
+.about-shortcuts {
+  gap: 0.5em;
+  max-width: 100%;
+  justify-content: center;
+}
+.about-shortcuts a {
+  justify-content: center;
+  border-radius: var(--border-radius-12px);
+  min-width: 82px;
+  transition: all 0.2s ease-in-out;
+}
+.about-shortcuts a:hover {
+  cursor: pointer;
+  color: var(--color-active);
+  box-shadow: var(--box-shadow-buttons-hover);
+}
+
+.about-li {
+  max-width: 100%;
+  margin-left: 2.5em;
+}
+.about-li a:hover {
+  color: var(--color-active);
+  font-weight: 500;
+}
+
+.skill-icons {
+  gap: 1em;
+  margin: 1em 0 0 2.5em;
+}
+.skill-icons img {
+  height: 48px;
+  width: 48px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.1s ease-in-out;
+}
+.skill-icons img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  color: var(--color-black);
+  font-size: 1.95rem;
+}
+
+.about-me-card {
+  max-width: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.profile-pic {
+  align-items: center;
+  border-radius: 50%;
+  margin: 0.2em;
+  min-width: 20%;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: all 0.3s ease-in-out;
+  box-shadow: var(--box-shadow-buttons);
+  max-width: 100%;
+  border-radius: 50%;
+}
+.profile-picture:hover {
+  box-shadow: var(--box-shadow-buttons-hover);
+  background-color: var(--color-white);
+  transform: scale(1.1);
+}
+
+.card-header {
+  justify-content: center;
+  margin: 0 0 0.4em 0;
+  padding: 0.3em 0;
+  border-bottom: 2px solid var(--color-text-dark);
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.about-right {
+  width: 80%;
+  padding: 0;
+  font-size: 2.2rem;
+}/*# sourceMappingURL=about_20230607151846.css.map */
