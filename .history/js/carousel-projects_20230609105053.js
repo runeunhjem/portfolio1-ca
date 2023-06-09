@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     counter.textContent = `${index + 1}/${carouselItems.length}`;
   }
 
+  // Touch event handlers
   carousel.addEventListener("touchstart", function (event) {
     touchStartX = event.touches[0].clientX;
   });
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     handleSwipe();
   });
 
+  // Handle swipe direction
   function handleSwipe() {
     const touchDiff = touchStartX - touchEndX;
     if (touchDiff > 50) {
@@ -49,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
   prevButton.addEventListener("click", goToPrevSlide);
   nextButton.addEventListener("click", goToNextSlide);
 });
-
 function createProjectContainer(projectClass, title, tagline, description, images, links) {
   const projectContainer = document.querySelector(`.${projectClass}`);
   const projectLinks = projectContainer.querySelector(".project-links");

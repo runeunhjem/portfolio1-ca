@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     counter.textContent = `${index + 1}/${carouselItems.length}`;
   }
 
+  // Touch event handlers
   carousel.addEventListener("touchstart", function (event) {
     touchStartX = event.touches[0].clientX;
   });
