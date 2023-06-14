@@ -150,6 +150,7 @@ body {
   background-image: url(../images/ico-menu-dark.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 
 .navbar {
