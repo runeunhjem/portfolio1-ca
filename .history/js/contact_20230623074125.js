@@ -13,8 +13,8 @@ contactContent.addEventListener("input", validateContactForm);
 const form = document.getElementById("contact-form");
 form.addEventListener("submit", handleSubmit);
 
-const cf7ApiUrl = "https://wordpress.runeunhjem.no/wp-json/contact-form-7/v1/contact-forms/158/feedback";
-// const cf7ApiUrl = "https://wordpress.runeunhjem.no/wp-json/contact-form-7/v1/contact-forms/181/feedback";
+const cf7ApiUrl = "https://wordpress.runeunhjem.no/wp-json/contact-form-7/v1/contact-forms/181/feedback";
+const cf7ApiUrl = "https://wordpress.runeunhjem.no/wp-json/contact-form-7/v1/contact-forms/181/feedback";
 
 async function handleSubmit(event) {
   event.preventDefault();
