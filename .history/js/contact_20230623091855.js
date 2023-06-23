@@ -14,9 +14,11 @@ contactContent.addEventListener("input", validateContactForm);
 const form = document.getElementById("contact-form");
 form.addEventListener("submit", handleSubmit);
 
+
 const cf7ApiUrl = "https://wordpress.runeunhjem.no/wp-json/contact-form-7/v1/contact-forms/181/feedback";
 
 async function handleSubmit(event) {
+  console.log("handleSubmit is running");
   event.preventDefault();
 
   const name = document.getElementById("your-name").value;
@@ -29,6 +31,7 @@ async function handleSubmit(event) {
   formContent.append("your-email", email);
   formContent.append("your-subject", subject);
   formContent.append("your-message", message);
+  console.log("formContent: ", formContent);
 
   try {
     const response = await fetch(cf7ApiUrl, {

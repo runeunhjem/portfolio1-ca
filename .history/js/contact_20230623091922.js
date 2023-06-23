@@ -30,6 +30,7 @@ async function handleSubmit(event) {
   formContent.append("your-subject", subject);
   formContent.append("your-message", message);
 
+
   try {
     const response = await fetch(cf7ApiUrl, {
       method: "POST",

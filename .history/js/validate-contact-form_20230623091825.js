@@ -15,6 +15,7 @@ function validateContactForm() {
   const subjectAfter = document.getElementById("subject-after");
   const messageAfter = document.getElementById("message-after");
 
+
   contactName.addEventListener("focus", function () {
     contactName.placeholder = "Min 2 characters";
   });
@@ -99,6 +100,7 @@ function validateContactForm() {
     }
   }
   contactForm.addEventListener("submit", function (event) {
+    // formSubmitted = true;
     validateForm(event);
   });
 

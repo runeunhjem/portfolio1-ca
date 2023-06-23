@@ -99,6 +99,7 @@ function validateContactForm() {
     }
   }
   contactForm.addEventListener("submit", function (event) {
+    
     validateForm(event);
   });
 

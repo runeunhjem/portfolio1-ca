@@ -14,6 +14,7 @@ function validateContactForm() {
   const emailAfter = document.getElementById("email-after");
   const subjectAfter = document.getElementById("subject-after");
   const messageAfter = document.getElementById("message-after");
+  let formSubmitted = false;
 
   contactName.addEventListener("focus", function () {
     contactName.placeholder = "Min 2 characters";
@@ -41,6 +42,7 @@ function validateContactForm() {
   });
 
   function validateForm(event) {
+    event.preventDefault();
 
     if (checkLength(contactName.value, 1)) {
       contactName.classList.add("input-validated");
@@ -99,6 +101,7 @@ function validateContactForm() {
     }
   }
   contactForm.addEventListener("submit", function (event) {
+    // formSubmitted = true;
     validateForm(event);
   });
 
