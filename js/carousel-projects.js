@@ -141,3 +141,25 @@ const project3Container = createProjectContainer(
     { label: "Project README", url: "https://github.com/runeunhjem/07-ru-project-exam-1-chefs-table/blob/main/README.md" },
   ]
 );
+
+const project4Container = createProjectContainer(
+  "project4",
+  "movieTALK",
+  "Lets talk movies!",
+  "JavaScript 2 Course Assignment. You have been tasked with producing a new JavaScript front-end client for an existing social media platform. The client application must be attractive and responsive, but you have an otherwise blank slate in terms of theme design language.",
+  [
+    "movietalk/mt-1.jpg",
+    "movietalk/mt-2.jpg",
+    "movietalk/mt-3.jpg",
+    "movietalk/mt-4.jpg",
+    "movietalk/mt-5.jpg",
+    "movietalk/mt-6.jpg",
+    "movietalk/mt-7.jpg",
+    "movietalk/mt-8.jpg",
+  ],
+  [
+    { label: "Visit movieTALK", url: "https://js2-ca-js2-branch.netlify.app/" },
+    { label: "GitHub Repository", url: "https://github.com/runeunhjem/js2-ca" },
+    { label: "Project README", url: "https://github.com/runeunhjem/js2-ca/blob/js2/README.md" },
+  ]
+);

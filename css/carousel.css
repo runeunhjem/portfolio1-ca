@@ -80,6 +80,11 @@
   background-color: var(--color-burgundy-chefs-table);
 }
 
+.button-project4 {
+  color: var(--color-white);
+  background-color: var(--color-burgundy-chefs-table);
+}
+
 .button {
   justify-content: center;
   width: 180px;
