@@ -228,11 +228,11 @@ body {
   align-items: center;
   font-weight: 600;
   width: 100%;
-  margin: 0.5em 0 0 0.5em;
+  margin: 0 0 0 0.5em;
 }
 
 .arrow-big {
-  margin-left: 1em;
+  margin-left: 0.3em;
   max-height: 70%;
   align-items: center;
   height: 36px;
@@ -343,7 +343,9 @@ body {
 
 .weblink, .phone, .mail {
   transition: all 0.3s ease-in-out;
-  width: 320px;
+  width: 340px;
+  max-width: 110%;
+  align-items: center;
 }
 .weblink:hover, .phone:hover, .mail:hover {
   box-shadow: var(--box-shadow-buttons);

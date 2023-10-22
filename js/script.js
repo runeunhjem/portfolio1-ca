@@ -86,6 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
         case "Visit Chef's Table":
           window.location.href = "https://ru-project-exam-1.netlify.app/";
           break;
+        case "Visit movieTALK":
+          window.location.href = "https://js2-ca-js2-branch.netlify.app/";
+          break;
         case "My album on Spotify":
           window.location.href = "https://open.spotify.com/artist/56ZSG2Q1JKydX5X9rTZxrq";
           break;
