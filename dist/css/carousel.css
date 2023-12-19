@@ -85,6 +85,11 @@
   background-color: var(--color-yellow-gamehub);
 }
 
+.button-project5 {
+  color: var(--color-white-dreambids);
+  background-color: var(--color-secondary-dreambids);
+}
+
 .button {
   justify-content: center;
   width: 180px;

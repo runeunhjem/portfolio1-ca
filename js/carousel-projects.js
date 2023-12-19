@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   carousel.addEventListener("touchstart", function (event) {
     touchStartX = event.touches[0].clientX;
-  });
+  }, { passive: true });
 
   carousel.addEventListener("touchend", function (event) {
     touchEndX = event.changedTouches[0].clientX;
@@ -161,5 +161,29 @@ const project4Container = createProjectContainer(
     { label: "Visit movieTALK", url: "https://js2-ca-js2-branch.netlify.app/" },
     { label: "GitHub Repository", url: "https://github.com/runeunhjem/js2-ca" },
     { label: "Project README", url: "https://github.com/runeunhjem/js2-ca/blob/js2/README.md" },
+  ]
+);
+
+const project5Container = createProjectContainer(
+  "project5",
+  "DreamBids",
+  "Find That Dreamy Item!",
+  "An auction site is looking to launch a website where users can add items to be bid on and bid on items other users have put up for auction. Vanilla JS, Bootstrap and Sass were primaries on this project.JavaScript 2 Course Assignment. You have been tasked with producing a new JavaScript front-end client for an existing social media platform. The client application must be attractive and responsive, but you have an otherwise blank slate in terms of theme design language.",
+  [
+    "dreambids/db-1.png",
+    "dreambids/db-2.png",
+    "dreambids/db-3.png",
+    "dreambids/db-4.png",
+    "dreambids/db-5.png",
+    "dreambids/db-6.png",
+    "dreambids/db-7.png",
+    "dreambids/db-8.png",
+    "dreambids/db-9.png",
+    "dreambids/db-10.png",
+  ],
+  [
+    { label: "Visit DreamBids", url: "https://runeunhjem-sp2.netlify.app/" },
+    { label: "GitHub Repository", url: "https://github.com/runeunhjem/semester-project-2" },
+    { label: "Project README", url: "https://github.com/runeunhjem/semester-project-2/blob/main/README.md" },
   ]
 );

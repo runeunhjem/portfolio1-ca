@@ -42,6 +42,18 @@ const imageUrls = {
     "movietalk/mt-7.png",
     "movietalk/mt-8.png",
   ],
+  project5: [
+    "dreambids/db-1.png",
+    "dreambids/db-2.png",
+    "dreambids/db-3.png",
+    "dreambids/db-4.png",
+    "dreambids/db-5.png",
+    "dreambids/db-6.png",
+    "dreambids/db-7.png",
+    "dreambids/db-8.png",
+    "dreambids/db-9.png",
+    "dreambids/db-10.png",
+  ],
 };
 function preloadImages(imageUrls) {
   imageUrls.forEach((imageUrl) => {
@@ -54,6 +66,7 @@ preloadImages(imageUrls.project1);
 preloadImages(imageUrls.project2);
 preloadImages(imageUrls.project3);
 preloadImages(imageUrls.project4);
+preloadImages(imageUrls.project5);
 
 function loadCurrentImage(container) {
   const projectContainer = container.closest(".carousel-item").querySelector(".project-container");

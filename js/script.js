@@ -89,6 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
         case "Visit movieTALK":
           window.location.href = "https://js2-ca-js2-branch.netlify.app/";
           break;
+        case "Visit DreamBids":
+          window.location.href = "https://runeunhjem-sp2.netlify.app/";
+          break;
         case "My album on Spotify":
           window.location.href = "https://open.spotify.com/artist/56ZSG2Q1JKydX5X9rTZxrq";
           break;
