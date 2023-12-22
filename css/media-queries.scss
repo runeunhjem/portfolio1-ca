@@ -2,6 +2,9 @@
   .fly-in-menu {
     right: 7.7vw;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 1600px) {
@@ -185,9 +188,9 @@
 }
 
 @media (max-width: 450px) {
-  body {
-    overflow-x: hidden;
-  }
+  // body {
+  //   overflow-x: hidden;
+  // }
   .button-container {
     gap: 0.5em;
   }
