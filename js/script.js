@@ -69,40 +69,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
       switch (linkText) {
         case "Home":
-          window.location.href = "index.html";
+          window.open("index.html", "_blank");
           break;
         case "About":
-          window.location.href = "about.html";
+          window.open("about.html", "_blank");
           break;
         case "Contact":
-          window.location.href = "contact.html";
+          window.open("contact.html", "_blank");
           break;
         case "Visit Game Hub":
-          window.location.href = "https://gamehub-wp-ca.netlify.app/";
+          window.open("https://gamehub-wp-ca.netlify.app/", "_blank");
           break;
         case "Visit CMS":
-          window.location.href = "https://csm-sp1.netlify.app/";
+          window.open("https://csm-sp1.netlify.app/", "_blank");
           break;
         case "Visit Chef's Table":
-          window.location.href = "https://ru-project-exam-1.netlify.app/";
+          window.open("https://ru-project-exam-1.netlify.app/", "_blank");
           break;
         case "Visit movieTALK":
-          window.location.href = "https://js2-ca-js2-branch.netlify.app/";
+          window.open("https://js2-ca-js2-branch.netlify.app/", "_blank");
           break;
         case "Visit DreamBids":
-          window.location.href = "https://runeunhjem-sp2.netlify.app/";
+          window.open("https://runeunhjem-sp2.netlify.app/", "_blank");
           break;
         case "My album on Spotify":
-          window.location.href = "https://open.spotify.com/artist/56ZSG2Q1JKydX5X9rTZxrq";
+          window.open("https://open.spotify.com/artist/56ZSG2Q1JKydX5X9rTZxrq", "_blank");
           break;
         case "This is my TV":
-          window.location.href = "https://programming-foundations-ca-runeunhjem.netlify.app/";
+          window.open("https://programming-foundations-ca-runeunhjem.netlify.app/", "_blank");
           break;
         case "IMDB API search":
-          window.location.href = "https://js1ca.netlify.app/";
+          window.open("https://js1ca.netlify.app/", "_blank");
           break;
         case "Portfolio README":
-          window.location.href = "https://github.com/runeunhjem/portfolio1-ca/blob/main/README.md";
+          window.open("https://github.com/runeunhjem/portfolio1-ca/blob/main/README.md", "_blank");
           break;
         default:
           break;
