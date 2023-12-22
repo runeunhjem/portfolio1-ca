@@ -107,9 +107,9 @@
 .footer-logo {
   display: flex;
   justify-content: center;
-  height: 90%;
+  height: 100%;
   width: 100%;
-  background-image: url(../images/logo-footer-rd-with-text.svg);
+  background-image: url(../images/rd-rundev-with-info.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;

@@ -115,7 +115,7 @@ body {
 .header-left {
   width: 40%;
   height: 100%;
-  background-image: url(../images/rundev-logo-in-brackets.svg);
+  background-image: url(../images/logo-header-full.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -366,4 +366,4 @@ body {
   color: var(--color-text-dark);
   background-color: var(--color-white);
   cursor: default;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles_20231219113658.css.map */

@@ -101,9 +101,6 @@
     font-size: 0.9rem;
     height: 80px;
   }
-  .header-left {
-    background-image: url(../images/logo-footer-rd-with-text.svg);
-  }
   .navbar {
     display: none;
   }

@@ -18,55 +18,50 @@
   padding: 0;
 }
 
-.footer-links {
-  ul {
-    gap: 0.5em;
-  }
-
-  li {
-    min-width: 180px;
-    width: 180px;
-    margin: 0.5em;
-    box-shadow: var(--box-shadow-buttons);
-    border-radius: var(--border-radius-6px);
-    &:hover {
-      cursor: pointer;
-      border-radius: var(--border-radius-6px);
-      border-radius: var(--border-radius-6px);
-      box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.25);
-      color: var(--color-black);
-      background-color: var(--color-white);
-    }
-    a {
-      border-radius: var(--border-radius-6px);
-      min-width: 180px;
-      padding: 0.3rem 0rem 0.3rem 1rem;
-    }
-  }
+.footer-links ul {
+  gap: 0.5em;
+}
+.footer-links li {
+  min-width: 180px;
+  width: 180px;
+  margin: 0.5em;
+  box-shadow: var(--box-shadow-buttons);
+  border-radius: var(--border-radius-6px);
+}
+.footer-links li:hover {
+  cursor: pointer;
+  border-radius: var(--border-radius-6px);
+  border-radius: var(--border-radius-6px);
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.25);
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+.footer-links li a {
+  border-radius: var(--border-radius-6px);
+  min-width: 180px;
+  padding: 0.3rem 0rem 0.3rem 1rem;
 }
 
 .footer-center {
   justify-content: space-between;
-  p {
-    text-align: center;
-    width: 100%;
-    a {
-      min-width: 300px;
-      max-width: 100%;
-    }
-  }
+}
+.footer-center p {
+  text-align: center;
+  width: 100%;
+}
+.footer-center p a {
+  min-width: 300px;
+  max-width: 100%;
 }
 
 .footer-center {
   gap: 0.4em;
-  p {
-    &:hover {
-      box-shadow: var(--box-shadow-buttons);
-      border-radius: var(--border-radius-6px);
-      color: var(--color-red);
-      width: 300px;
-    }
-  }
+}
+.footer-center p:hover {
+  box-shadow: var(--box-shadow-buttons);
+  border-radius: var(--border-radius-6px);
+  color: var(--color-red);
+  width: 300px;
 }
 
 #phone, #mail, #weblink {
@@ -112,9 +107,9 @@
 .footer-logo {
   display: flex;
   justify-content: center;
-  height:100%;
+  height: 90%;
   width: 100%;
-  background-image: url(../images/rd-rundev-with-info.svg);
+  background-image: url(../images/logo-footer-rd-with-text.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -127,4 +122,4 @@
   height: 40px;
   font-size: 1rem;
   color: var(--color-text-dark);
-}
+}/*# sourceMappingURL=footer_20231219113506.css.map */

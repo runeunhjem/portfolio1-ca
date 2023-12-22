@@ -3,17 +3,15 @@
     right: 7.7vw;
   }
 }
-
 @media (max-width: 1600px) {
   .fly-in-menu {
     right: 4.5vw;
   }
- .header, .intro, .footer-container, .projects-container {
+  .header, .intro, .footer-container, .projects-container {
     max-width: 95vw;
     justify-content: center;
   }
 }
-
 @media (max-width: 1300px) {
   .fly-in-menu {
     right: 3vw;
@@ -26,7 +24,6 @@
     max-width: 100%;
   }
 }
-
 @media (max-width: 1200px) {
   .intro {
     width: 100vw;
@@ -34,7 +31,6 @@
     height: 340px;
   }
 }
-
 @media (max-width: 1080px) {
   .tablet-wide {
     display: none;
@@ -42,22 +38,20 @@
   .arrow-big {
     height: 32px;
   }
-
   #footer-container {
     flex-direction: column;
     height: auto;
     align-items: center;
     gap: 1.5em;
     width: 100vw;
-    .footer-logo {
-      height: 100px;
-    }
+  }
+  #footer-container .footer-logo {
+    height: 100px;
   }
   .intro {
     height: 300px;
   }
 }
-
 @media (max-width: 768px) {
   .tablet {
     display: none;
@@ -80,10 +74,10 @@
   .about-me-card {
     flex-direction: column;
     align-items: center;
-    .about-right {
-      width: 100%;
-      margin: 0;
-    }
+  }
+  .about-me-card .about-right {
+    width: 100%;
+    margin: 0;
   }
   .about-shortcuts {
     font-size: 1.1rem;
@@ -94,7 +88,6 @@
   #phone, #mail, #weblink {
     width: 100vw;
   }
-
   .project-description {
     height: 150px;
   }
@@ -103,15 +96,14 @@
     margin-bottom: 1em;
   }
 }
-
 @media (max-width: 600px) {
   .project-description {
     font-size: 0.9rem;
     height: 80px;
   }
-  // .header-left {
-  //   background-image: url(../images/rd-rundev-with-info.svg);
-  // }
+  .header-left {
+    background-image: url(../images/logo-footer-rd-with-text.svg);
+  }
   .navbar {
     display: none;
   }
@@ -133,7 +125,6 @@
     font-size: 3.5rem;
   }
 }
-
 @media (max-width: 500px) {
   .project-description {
     height: 100px;
@@ -160,8 +151,8 @@
     font-size: 2.35rem;
   }
   .project-title {
-  font-size: 2rem;
-}
+    font-size: 2rem;
+  }
   .project-tagline {
     font-size: 1.3rem;
     height: 24px;
@@ -179,7 +170,6 @@
     font-size: 1.1rem;
   }
 }
-
 @media (max-width: 450px) {
   body {
     overflow-x: hidden;
@@ -205,7 +195,6 @@
   .carousel-item {
     margin: 0.2em auto;
   }
-
   .read-about-me {
     font-size: 1rem;
   }
@@ -217,7 +206,6 @@
     justify-content: center;
   }
 }
-
 @media (max-width: 400px) {
   .header {
     height: 120px;
@@ -232,7 +220,6 @@
     font-size: 0.8rem;
   }
 }
-
 @media (max-width: 360px) {
   .header {
     height: 100px;
@@ -243,4 +230,4 @@
   .intro {
     height: 290px;
   }
-}
+}/*# sourceMappingURL=media-queries_20230608144908.css.map */
