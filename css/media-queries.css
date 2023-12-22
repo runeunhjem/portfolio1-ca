@@ -101,6 +101,12 @@
     font-size: 0.9rem;
     height: 80px;
   }
+  .header-left {
+    width: 70%;
+  }
+  .header-right {
+    width: 30%;
+  }
   .navbar {
     display: none;
   }

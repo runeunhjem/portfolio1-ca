@@ -109,9 +109,13 @@
     font-size: 0.9rem;
     height: 80px;
   }
-  // .header-left {
-  //   background-image: url(../images/rd-rundev-with-info.svg);
-  // }
+  .header-left {
+    width: 70%;
+    // background-image: url(../images/rd-rundev-with-info.svg);
+  }
+  .header-right {
+    width: 30%;
+  }
   .navbar {
     display: none;
   }
