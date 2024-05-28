@@ -193,6 +193,7 @@ body {
   width: 100%;
   max-width: 1600px;
   height: 300px;
+  min-height: 320px;
   align-items: flex-start;
   background-color: var(--color-bg-intro);
   color: var(--color-text-dark);
@@ -201,6 +202,9 @@ body {
   font-size: 1.5rem;
   font-family: var(--font-family-koho);
   box-shadow: var(--box-shadow-intro);
+}
+.footer-container {
+  height: 300px;
 }
 
 .intro {

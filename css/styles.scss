@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;0,500;0,700;1,600&display=swap");
 
 :root {
   --border-radius-6px: 6px;
@@ -12,9 +12,9 @@
   --box-shadow-menu-hover: inset 1px 2px 2px rgba(0, 0, 0, 0.65);
   --box-shadow-about: inset -4px -4px 2px 2px rgba(0, 0, 0, 0.25);
 
-  --color-logo-dark: #7B7070;
-  --color-icons: #7B7070;
-  --color-active: #FF0000;
+  --color-logo-dark: #7b7070;
+  --color-icons: #7b7070;
+  --color-active: #ff0000;
   --color-text-dark: #615a5a;
   --color-text-light: #aaaaaa;
   --color-text-green: #058d39;
@@ -22,26 +22,26 @@
   --color-bg-body: rgb(250, 238, 227);
   --color-bg-intro: rgba(185, 185, 185, 0.19);
   --color-bg-intro-full: rgb(245, 238, 232);
-  --color-bg-card-cms: #F8EEC9;
+  --color-bg-card-cms: #f8eec9;
   --color-bg-active: #ffbcbc;
   --color-bg-button-hover: rgb(250, 220, 220);
 
-  --color-red: #FF0000;
-  --color-white: #FFFFFF;
+  --color-red: #ff0000;
+  --color-white: #ffffff;
   --color-black: #000000;
   --color-dark-beige: #554d4d;
-  --color-yellow-gamehub: #F5C618;
+  --color-yellow-gamehub: #f5c618;
   --color-burgundy-chefs-table: #5e0a24;
   --color-blue-csm: #0052bd;
   --color-secondary-dreambids: #1572b9;
-  --color-white-dreambids: #FFFFFF;
-  --color-secondary-purple-cgg:  rgb(128, 0, 145);
-  --color-white-cgg: #FFFFFF;
+  --color-white-dreambids: #ffffff;
+  --color-secondary-purple-cgg: rgb(128, 0, 145);
+  --color-white-cgg: #ffffff;
   --color-secondary-holidaze: rgb(125, 211, 252);
   --color-black-holidaze: #000000;
 
-  --font-family-koho: 'KoHo', sans-serif;
-  --font-family-inter: 'Inter', sans-serif;
+  --font-family-koho: "KoHo", sans-serif;
+  --font-family-inter: "Inter", sans-serif;
 }
 
 * {
@@ -112,16 +112,17 @@ body {
 .instagram-icon:before,
 .github-icon:before,
 .spotify-icon:before {
-  content: url(../images/ico-linkedin-red.svg) url(../images/ico-facebook-red.svg) url(../images/ico-instagram-red.svg) url(../images/ico-github-red.svg) url(../images/ico-spotify-red.svg);
+  content: url(../images/ico-linkedin-red.svg) url(../images/ico-facebook-red.svg) url(../images/ico-instagram-red.svg)
+    url(../images/ico-github-red.svg) url(../images/ico-spotify-red.svg);
 }
 
 .header {
   width: 100%;
   height: 150px;
   position: relative;
-  }
+}
 
- .header-left {
+.header-left {
   width: 40%;
   height: 100%;
   background-image: url(../images/rundev-logo-in-brackets.svg);
@@ -149,7 +150,8 @@ body {
   height: 100%;
 }
 
-.navbar, .hamburger {
+.navbar,
+.hamburger {
   height: 50%;
 }
 
@@ -172,7 +174,8 @@ body {
   justify-content: space-between;
 }
 
-.nav-button, .contact-button {
+.nav-button,
+.contact-button {
   width: 160px;
   height: 48px;
   max-width: 100%;
@@ -194,10 +197,13 @@ body {
   }
 }
 
-.intro, .footer-container, .project-container, .about{
+.intro,
+.footer-container,
+.project-container,
+.about {
   width: 100%;
   max-width: 1600px;
-  height: 300px;
+  height: 270px;
   align-items: flex-start;
   background-color: var(--color-bg-intro);
   color: var(--color-text-dark);
@@ -208,11 +214,12 @@ body {
   box-shadow: var(--box-shadow-intro);
 }
 .footer-container {
-  height: auto !important;
+  height: 300px;
 }
 
 .intro {
   line-height: 1.5;
+  height: auto !important";
 }
 
 .intro-left {
@@ -243,7 +250,7 @@ body {
   align-items: center;
   font-weight: 600;
   width: 100%;
-  margin: 0 0 0 0.5em;;
+  margin: 0 0 0 0.5em;
 }
 
 .arrow-big {
@@ -255,10 +262,13 @@ body {
 }
 
 @keyframes nudge-animation {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(0);
   }
-  16.67%, 50%, 83.33% {
+  16.67%,
+  50%,
+  83.33% {
     transform: translateX(10px);
   }
 }
@@ -305,7 +315,8 @@ body {
   }
 }
 
-.project-toggle, .other-project-toggle {
+.project-toggle,
+.other-project-toggle {
   width: 100%;
   padding: 0.4em 1em;
   font-size: 1.2rem;
@@ -315,11 +326,13 @@ body {
   }
 }
 
-.project-toggle:hover::after, .other-project-toggle:hover::after {
+.project-toggle:hover::after,
+.other-project-toggle:hover::after {
   color: var(--color-black);
 }
 
-.project-toggle::after, .other-project-toggle::after {
+.project-toggle::after,
+.other-project-toggle::after {
   content: ">";
   position: relative;
   color: var(--color-white);
@@ -337,37 +350,43 @@ body {
   right: -10px;
 }
 
-.menu-list, .project-list, .other-project-list {
+.menu-list,
+.project-list,
+.other-project-list {
   width: 95%;
   color: var(--color-white);
   padding: 0.2em auto;
 }
 
-.project-list, .other-project-list {
+.project-list,
+.other-project-list {
   display: none;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
 
-.project-list.show, .other-project-list.show {
+.project-list.show,
+.other-project-list.show {
   display: block;
   max-width: 100%;
   margin: 0em auto;
   font-size: 1.4rem;
 }
 
-.weblink, .phone, .mail {
+.weblink,
+.phone,
+.mail {
   transition: all 0.3s ease-in-out;
   width: 340px;
   max-width: 110%;
   align-items: center;
   // margin-top: 0.5em;
   &:hover {
-      box-shadow: var(--box-shadow-buttons);
-      border-radius: var(--border-radius-12px);
-      color: var(--color-red);
-    }
+    box-shadow: var(--box-shadow-buttons);
+    border-radius: var(--border-radius-12px);
+    color: var(--color-red);
+  }
 }
 
 .active {
