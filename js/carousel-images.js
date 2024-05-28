@@ -54,6 +54,33 @@ const imageUrls = {
     "dreambids/db-9.png",
     "dreambids/db-10.png",
   ],
+  project6: [
+    "cgg/cgg-1.png",
+    "cgg/cgg-2.png",
+    "cgg/cgg-3.png",
+    "cgg/cgg-4.png",
+    "cgg/cgg-5.png",
+    "cgg/cgg-6.png",
+    "cgg/cgg-7.png",
+    "cgg/cgg-8.png",
+    "cgg/cgg-9.png",
+    "cgg/cgg-10.png",
+  ],
+  project7: [
+    "holidaze/hd-01.png",
+    "holidaze/hd-02.png",
+    "holidaze/hd-03.png",
+    "holidaze/hd-04.png",
+    "holidaze/hd-05.png",
+    "holidaze/hd-06.png",
+    "holidaze/hd-07.png",
+    "holidaze/hd-08.png",
+    "holidaze/hd-09.png",
+    "holidaze/hd-10.png",
+    "holidaze/hd-11.png",
+    "holidaze/hd-12.png",
+    "holidaze/hd-13.png",
+  ],
 };
 function preloadImages(imageUrls) {
   imageUrls.forEach((imageUrl) => {
@@ -67,6 +94,8 @@ preloadImages(imageUrls.project2);
 preloadImages(imageUrls.project3);
 preloadImages(imageUrls.project4);
 preloadImages(imageUrls.project5);
+preloadImages(imageUrls.project6);
+preloadImages(imageUrls.project7);
 
 function loadCurrentImage(container) {
   const projectContainer = container.closest(".carousel-item").querySelector(".project-container");

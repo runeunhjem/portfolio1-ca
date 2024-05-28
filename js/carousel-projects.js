@@ -187,3 +187,54 @@ const project5Container = createProjectContainer(
     { label: "Project README", url: "https://github.com/runeunhjem/semester-project-2/blob/main/README.md" },
   ]
 );
+
+const project6Container = createProjectContainer(
+  "project6",
+  "CGG",
+  "Online Shopping",
+  "The Homepage should have a list of all the products. There should be a look-ahead search bar that filters products when typing in a product name. Clicking on a product should take a user to an individual product page.",
+  [
+    "cgg/cgg-1.png",
+    "cgg/cgg-2.png",
+    "cgg/cgg-3.png",
+    "cgg/cgg-4.png",
+    "cgg/cgg-5.png",
+    "cgg/cgg-6.png",
+    "cgg/cgg-7.png",
+    "cgg/cgg-8.png",
+    "cgg/cgg-9.png",
+    "cgg/cgg-10.png",
+  ],
+  [
+    { label: "Visit CGG", url: "https://runeunhjem-sp2.netlify.app/" },
+    { label: "GitHub Repository", url: "https://github.com/runeunhjem/javascript-frameworks-ca-react" },
+    { label: "Project README", url: "https://github.com/runeunhjem/javascript-frameworks-ca-react/blob/main/README.md" },
+  ]
+);
+
+const project7Container = createProjectContainer(
+  "project7",
+  "Holidaze",
+  "Travels made easy!",
+  "A newly launched accommodation booking site called Holidaze has approached you to develop a brand new front end for their application. While they have a list of required features, the design and user experience has not been specified.",
+  [
+    "holidaze/hd-01.png",
+    "holidaze/hd-02.png",
+    "holidaze/hd-03.png",
+    "holidaze/hd-04.png",
+    "holidaze/hd-05.png",
+    "holidaze/hd-06.png",
+    "holidaze/hd-07.png",
+    "holidaze/hd-08.png",
+    "holidaze/hd-09.png",
+    "holidaze/hd-10.png",
+    "holidaze/hd-11.png",
+    "holidaze/hd-12.png",
+    "holidaze/hd-13.png",
+  ],
+  [
+    { label: "Visit Holidaze", url: "https://runeunhjem-sp2.netlify.app/" },
+    { label: "GitHub Repository", url: "https://github.com/runeunhjem/holidaze" },
+    { label: "Project README", url: "https://github.com/runeunhjem/holidaze/blob/main/README.md" },
+  ]
+);
