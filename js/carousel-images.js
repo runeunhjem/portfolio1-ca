@@ -64,7 +64,6 @@ const imageUrls = {
     "cgg/cgg-7.png",
     "cgg/cgg-8.png",
     "cgg/cgg-9.png",
-    "cgg/cgg-10.png",
   ],
   project7: [
     "holidaze/hd-01.png",

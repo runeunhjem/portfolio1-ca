@@ -89,6 +89,14 @@
   color: var(--color-white-dreambids);
   background-color: var(--color-secondary-dreambids);
 }
+.button-project6 {
+  color: var(--color-white-cgg);
+  background-color: var(--color-secondary-cgg);
+}
+.button-project7 {
+  color: var(--color-black-holidaze);
+  background-color: var(--color-secondary-holidaze);
+}
 
 .button {
   justify-content: center;

@@ -203,7 +203,6 @@ const project6Container = createProjectContainer(
     "cgg/cgg-7.png",
     "cgg/cgg-8.png",
     "cgg/cgg-9.png",
-    "cgg/cgg-10.png",
   ],
   [
     { label: "Visit CGG", url: "https://javascript-frameworks-ca-react.netlify.app/" },
