@@ -83,6 +83,7 @@ button {
 .link-reset {
   text-decoration: none;
   color: inherit;
+  padding: 6px;
 }
 
 body {
@@ -196,7 +197,7 @@ body {
 .intro, .footer-container, .project-container, .about{
   width: 100%;
   max-width: 1600px;
-  height: 270px;
+  height: 300px;
   align-items: flex-start;
   background-color: var(--color-bg-intro);
   color: var(--color-text-dark);
@@ -205,6 +206,9 @@ body {
   font-size: 1.5rem;
   font-family: var(--font-family-koho);
   box-shadow: var(--box-shadow-intro);
+}
+.footer-container {
+  height: auto !important;
 }
 
 .intro {

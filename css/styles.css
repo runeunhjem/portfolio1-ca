@@ -79,6 +79,7 @@ button {
 .link-reset {
   text-decoration: none;
   color: inherit;
+  padding: 4px;
 }
 
 body {
@@ -191,7 +192,7 @@ body {
 .intro, .footer-container, .project-container, .about {
   width: 100%;
   max-width: 1600px;
-  height: 270px;
+  height: 300px;
   align-items: flex-start;
   background-color: var(--color-bg-intro);
   color: var(--color-text-dark);
