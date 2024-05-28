@@ -92,6 +92,12 @@ document.addEventListener("DOMContentLoaded", function () {
         case "Visit DreamBids":
           window.open("https://runeunhjem-sp2.netlify.app/", "_blank");
           break;
+        case "Visit CGG":
+          window.open("https://javascript-frameworks-ca-react.netlify.app/", "_blank");
+          break;
+        case "Visit Holidaze":
+          window.open("https://rundev-holidaze.netlify.app/home", "_blank");
+          break;
         case "My album on Spotify":
           window.open("https://open.spotify.com/artist/56ZSG2Q1JKydX5X9rTZxrq", "_blank");
           break;

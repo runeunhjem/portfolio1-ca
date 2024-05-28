@@ -31,6 +31,10 @@
   --color-blue-csm: #0052bd;
   --color-secondary-dreambids: #1572b9;
   --color-white-dreambids: #FFFFFF;
+  --color-secondary-purple-cgg: rgb(128, 0, 145);
+  --color-white-cgg: #FFFFFF;
+  --color-secondary-holidaze: rgb(125, 211, 252);
+  --color-black-holidaze: #000000;
   --font-family-koho: "KoHo", sans-serif;
   --font-family-inter: "Inter", sans-serif;
 }

@@ -206,7 +206,7 @@ const project6Container = createProjectContainer(
     "cgg/cgg-10.png",
   ],
   [
-    { label: "Visit CGG", url: "https://runeunhjem-sp2.netlify.app/" },
+    { label: "Visit CGG", url: "https://javascript-frameworks-ca-react.netlify.app/" },
     { label: "GitHub Repository", url: "https://github.com/runeunhjem/javascript-frameworks-ca-react" },
     { label: "Project README", url: "https://github.com/runeunhjem/javascript-frameworks-ca-react/blob/main/README.md" },
   ]
@@ -233,7 +233,7 @@ const project7Container = createProjectContainer(
     "holidaze/hd-13.png",
   ],
   [
-    { label: "Visit Holidaze", url: "https://runeunhjem-sp2.netlify.app/" },
+    { label: "Visit Holidaze", url: "https://rundev-holidaze.netlify.app/home" },
     { label: "GitHub Repository", url: "https://github.com/runeunhjem/holidaze" },
     { label: "Project README", url: "https://github.com/runeunhjem/holidaze/blob/main/README.md" },
   ]
