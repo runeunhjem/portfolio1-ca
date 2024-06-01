@@ -218,7 +218,7 @@ body {
   background-image: url(../images/rune-profile-pic-medium.png);
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: var(--border-radius-12px);
+  border-radius: 50%;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
