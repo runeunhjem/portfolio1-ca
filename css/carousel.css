@@ -20,7 +20,7 @@
 .heading {
   justify-content: center;
   text-align: center;
-  margin: 1em auto;
+  margin: 1em auto 0 auto;
   font-size: 3em;
   font-family: var(--font-family-koho);
   color: var(--color-text-dark);

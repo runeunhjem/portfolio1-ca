@@ -79,13 +79,36 @@ button {
 .link-reset {
   text-decoration: none;
   color: inherit;
-  padding: 4px;
+  /* padding: 4px; */
 }
 
 body {
   font-family: var(--font-family-inter);
   background-color: var(--color-bg-body);
   padding: 1em;
+}
+
+.portfolio-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.portfolio-link {
+  color: var(--color-text-dark);
+  border-radius: var(--border-radius-6px);
+  padding: 0.4em;
+  height: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-link:hover {
+  color: var(--color-black);
+  transform: scale(1.05);
+  background-color: var(--color-bg-intro);
+  border-radius: var(--border-radius-12px);
+  box-shadow: var(--box-shadow-buttons);
+  border-bottom: 1px solid var(--color-red);
 }
 
 .flex {
