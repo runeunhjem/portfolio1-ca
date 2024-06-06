@@ -95,12 +95,25 @@ body {
   align-items: center;
 }
 
+@media screen and (max-width: 468px){
+  .portfolio-container {
+    height: 50px;
+    margin: 0 auto 2em auto;
+    max-width: 80%;
+  }
+}
 .portfolio-link {
-  color: var(--color-text-dark);
+  color: var(--color-red);
   border-radius: var(--border-radius-6px);
   padding: 0.4em;
   height: 30px;
   transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 468px){
+  .portfolio-link {
+    height: 50px;
+
+  }
 }
 .portfolio-link:hover {
   color: var(--color-black);
